@@ -343,7 +343,7 @@ div#preloader {
 .nav-menu .drop-down:hover > ul {
   opacity: 1;
   top: 100%;
-  visibility: visible;
+  /*visibility: visible; -- Permite hacer desplegable el menu con un hover */ 
 }
 
 .nav-menu .drop-down li {

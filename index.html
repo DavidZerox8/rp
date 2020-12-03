@@ -50,20 +50,24 @@
                     <li><a href="#team">Equipo</a></li>
                     <li><a href="#contact">Contacto</a></li>
 
-                    <li class="drop-down dropdown-toggle" ><a href="#">M&aacute;s</a>
-                        <ul>
-                            <li><a href="#">Men&uacute;</a></li>
-                            <li class="drop-down"><a href="#">Otras Secciones</a>
-                                <ul>
-                                    <li><a href="#portfolio">Portfolio</a></li>
-                                    <li><a href="#blog">Noticias</a></li>
-                                    <li><a href="#">Cotización</a></li>
-                                </ul>    
-                            </li>
-                            <li><a href="#">Preguntas Frecuentes</a></li>
+                    <li> <!-- Menu desplegable -->
+                        <div class="dropdown show"><a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                M&aacute;s
+                            </a>
 
-                        </ul>
+                            <div class="dropdown-menu" aria-labelledby="Menu desplegable">
+                                <a style="color: black" class="dropdown-item" href="#">Portafolio</a>
+                                <div class="dropdown-divider"></div>
+                                <a style="color: black" class="dropdown-item" href="#">Noticias</a>
+                                <div class="dropdown-divider"></div>
+                                <a style="color: black" href="#" class="dropdown-item">Cotizaci&oacute;n</a>
+                                <div class="dropdown-divider"></div>
+                                <a style="color: black" href="#" class="dropdown-item">Preguntas frecuentes</a>
+                            </div>
+                        </div>
+
                     </li>
+
                     <li><a class="iniciar-sesion hover page-scroll" data-toggle="modal" data-target="#Modal">Iniciar Sesión</a></li>
                 </ul>
             </nav><!-- fin del .nav-menu -->
@@ -397,17 +401,17 @@
                                 <div class="team-social-icon text-center">
                                     <ul>
                                         <li>
-                                            <a >
+                                            <a>
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a >
+                                            <a>
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a >
+                                            <a>
                                                 <i class="fa fa-instagram"></i>
                                             </a>
                                         </li>
@@ -430,17 +434,17 @@
                                 <div class="team-social-icon text-center">
                                     <ul>
                                         <li>
-                                            <a >
+                                            <a>
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a >
+                                            <a>
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a >
+                                            <a>
                                                 <i class="fa fa-instagram"></i>
                                             </a>
                                         </li>
@@ -463,17 +467,17 @@
                                 <div class="team-social-icon text-center">
                                     <ul>
                                         <li>
-                                            <a >
+                                            <a>
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a >
+                                            <a>
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a >
+                                            <a>
                                                 <i class="fa fa-instagram"></i>
                                             </a>
                                         </li>
@@ -496,17 +500,17 @@
                                 <div class="team-social-icon text-center">
                                     <ul>
                                         <li>
-                                            <a >
+                                            <a>
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a >
+                                            <a>
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a >
+                                            <a>
                                                 <i class="fa fa-instagram"></i>
                                             </a>
                                         </li>
@@ -990,7 +994,7 @@
                                         <div class="validate"></div>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-msg="Especifique el asunto"/>
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-msg="Especifique el asunto" />
                                         <div class="validate"></div>
                                     </div>
                                     <div class="form-group">
@@ -1121,8 +1125,8 @@
 
     <div class="modal-content" style="visibility: hidden">
         <!--===================Inicio formulario======================-->
-       
-            <div class="modal-header" >
+
+        <div class="modal-header">
             <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
         </div>
 
@@ -1168,6 +1172,4 @@
 
     </div>
 
-</body>
-
-</html>
+</body></html>

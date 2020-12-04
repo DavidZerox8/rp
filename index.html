@@ -50,7 +50,8 @@
                     <li><a href="#team">Equipo</a></li>
                     <li><a href="#contact">Contacto</a></li>
 
-                    <li> <!-- Menu desplegable -->
+                    <li>
+                        <!-- Menu desplegable -->
                         <div class="dropdown show"><a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 M&aacute;s
                             </a>
@@ -1121,55 +1122,40 @@
     <!-- Js Principal de la página -->
     <script src="assets/js/main.js"></script>
 
+    <!-- Inicio Modal -->
+    <div class="modal" id="Modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
 
-
-    <div class="modal-content" style="visibility: hidden">
-        <!--===================Inicio formulario======================-->
-
-        <div class="modal-header">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-        </div>
-
-        <div class="container-login100">
-            <div class="wrap-login100">
-                <div class="login100-form-title" style="background-image: url(images/bg-01.jpg);">
-                    <span class="login100-form-title-1">
-                        Iniciar Sesi&oacute;n
-                    </span>
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Iniciar Sesi&oacute;n</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
 
-                <form class="login100-form validate-form">
-                    <div class="wrap-input100 validate-input m-b-26" data-validate="Por favor, ingrese su usuario">
-                        <span class="label-input100">Usuario</span>
-                        <input class="input100" type="text" name="username" placeholder="Ingrese su usuario">
-                        <span class="focus-input100"></span>
-                    </div>
-
-                    <div class="wrap-input100 validate-input m-b-18" data-validate="Favor de ingresar la contraseña">
-                        <span class="label-input100">Contrase&ntilde;a</span>
-                        <input class="input100" type="password" name="pass" placeholder="Escriba su contraseña">
-                        <span class="focus-input100"></span>
-                    </div>
-
-                    <div class="flex-sb-m w-full p-b-30">
-
-
-                        <div>
-                            <a href="#" class="txt1">
-                                ¿Olvido su contrase&ntilde;a?
-                            </a>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                            <label for="email">Correo Electr&oacute;nico:</label>
+                            <input type="email" class="form-control" placeholder="Ingrese su correo" id="email">
                         </div>
-                    </div>
+                        <div class="form-group">
+                            <label for="pwd">Contrase&ntilde;a:</label>
+                            <input type="password" class="form-control" placeholder="Escriba su contraseña" id="pwd">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-success" style="background-color: #3ec1d5; border-color: #3ec1d5;">Acceder</button>
+                    </form>
+                </div>
 
-                    <div class="container-login100-form-btn">
-                        <button class="login100-form-btn">
-                            Ingresar
-                        </button>
-                    </div>
-                </form>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+
             </div>
         </div>
-
     </div>
 
 </body></html>

@@ -1,3 +1,33 @@
+<?php
+ 
+include('controller/config.php');
+session_start();
+ 
+if (isset($_POST['login'])) {
+ 
+    $usuario = $_POST['usuario_l'];
+    $clave = $_POST['clave_l'];
+ 
+    $query = $connection->prepare("SELECT * FROM usuarios WHERE usuario=:usuario");
+    $query->bindParam("usuario", $usuario, PDO::PARAM_STR);
+    $query->execute();
+ 
+    $result = $query->fetch(PDO::FETCH_ASSOC);
+ 
+    if (!$result) {
+        echo '<p class="error">claves incorrectas!</p>';
+    } else {
+        if (password_verify($password, $result['PASSWORD'])) {
+            $_SESSION['user_id'] = $result['ID'];
+            header('Location: blog.html');
+        } else {
+            echo '<p class="error">Algo salio mal!</p>';
+        }
+    }
+}
+ 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +39,12 @@
     <meta content="" name="descriptison">
     <meta content="" name="keywords">
 
-    <!-- Favicons - Insertar una vez tengamos el icono nuevo-->
+    <!-- Favicons - Insertar una vez tengamos el icono nuevo 
+    
+    https://code.tutsplus.com/es/tutorials/create-a-php-login-form--cms-33261
+    
+    
+    -->
     <link href="" rel="icon">
     <link href="" rel="apple-touch-icon">
 
@@ -1135,14 +1170,14 @@
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                    <form action="/action_page.php">
+                    <form action="" method="post">
                         <div class="form-group">
-                            <label for="email">Correo Electr&oacute;nico:</label>
-                            <input type="email" class="form-control" placeholder="Ingrese su correo" id="email">
+                            <label for="email">Usuario:</label>
+                            <input name="usuario_l" type="text" class="form-control" placeholder="Ingrese su correo" id="usuario">
                         </div>
                         <div class="form-group">
                             <label for="pwd">Contrase&ntilde;a:</label>
-                            <input type="password" class="form-control" placeholder="Escriba su contraseña" id="pwd">
+                            <input name="clave_l" type="password" class="form-control" placeholder="Escriba su contraseña" id="clave">
                         </div>
                         
                         <button type="submit" class="btn btn-success" style="background-color: #3ec1d5; border-color: #3ec1d5;">Acceder</button>

@@ -26,6 +26,10 @@ if (isset($_POST['login'])) {
         }
     }
 }
+
+if(isset($_SESSION['user_id'])){
+    header('location: controller/redirec.php');
+  }
  
 ?>
 
@@ -63,7 +67,7 @@ if (isset($_POST['login'])) {
 
     <!-- Estilos Principales de la página -->
     <link href="assets/css/style.css" rel="stylesheet">
-
+    
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">
@@ -78,7 +82,7 @@ if (isset($_POST['login'])) {
                 <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
 
-            <nav class="nav-menu d-none d-lg-block">
+            <nav id="nav" class="nav-menu d-none d-lg-block">
                 <ul>
                     <li class="active"><a href="#header">Inicio</a></li>
                     <li><a href="#about">Nosotros</a></li>
@@ -105,7 +109,7 @@ if (isset($_POST['login'])) {
 
                     </li>
 
-                    <li><a class="iniciar-sesion hover page-scroll" data-toggle="modal" data-target="#Modal">Iniciar Sesión</a></li>
+                    <li><a id="login_btn" name="login_btn" class="iniciar-sesion hover page-scroll" data-toggle="modal" data-target="#Modal">Iniciar Sesión</a></li>
                 </ul>
             </nav><!-- fin del .nav-menu -->
 
@@ -1159,7 +1163,7 @@ if (isset($_POST['login'])) {
     <script src="assets/js/main.js"></script>
 
     <!-- Inicio Modal -->
-    <div class="modal" id="Modal">
+    <div class="modal" id="Modal" style="position: fixed !important; z-index: 10000;">
         <div class="modal-dialog">
             <div class="modal-content">
 

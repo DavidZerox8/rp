@@ -17,9 +17,10 @@ if (isset($_POST['login'])) {
     if (!$result) {
         echo '<p class="error">claves incorrectas!</p>';
     } else {
-        if (password_verify($password, $result['PASSWORD'])) {
-            $_SESSION['user_id'] = $result['ID'];
-            header('Location: blog.html');
+        if (password_verify($clave, $result['clave'])) {
+            $_SESSION['user_id'] = $result['id'];
+            $_SESSION['tipo'] = $result['tipo'];
+            header('Location: controller/redirec.php');
         } else {
             echo '<p class="error">Algo salio mal!</p>';
         }
@@ -1173,14 +1174,14 @@ if (isset($_POST['login'])) {
                     <form action="" method="post">
                         <div class="form-group">
                             <label for="email">Usuario:</label>
-                            <input name="usuario_l" type="text" class="form-control" placeholder="Ingrese su correo" id="usuario">
+                            <input name="usuario_l" type="text" class="form-control" placeholder="Ingrese su correo" id="usuario_l">
                         </div>
                         <div class="form-group">
                             <label for="pwd">Contrase&ntilde;a:</label>
-                            <input name="clave_l" type="password" class="form-control" placeholder="Escriba su contraseña" id="clave">
+                            <input name="clave_l" type="password" class="form-control" placeholder="Escriba su contraseña" id="clave_l">
                         </div>
                         
-                        <button type="submit" class="btn btn-success" style="background-color: #3ec1d5; border-color: #3ec1d5;">Acceder</button>
+                        <button name="login" type="submit" class="btn btn-success" style="background-color: #3ec1d5; border-color: #3ec1d5;">Acceder</button>
                     </form>
                 </div>
 

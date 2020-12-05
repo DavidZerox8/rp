@@ -464,7 +464,7 @@ div#preloader {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 10px;
-  position: absolute;
+  position: relative;
   right: 15px;
 }
 

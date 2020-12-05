@@ -1,42 +1,23 @@
 <?php
- 
-include('controller/config.php');
 session_start();
  
-if (isset($_POST['login'])) {
- 
-    $usuario = $_POST['usuario_l'];
-    $clave = $_POST['clave_l'];
- 
-    $query = $connection->prepare("SELECT * FROM usuarios WHERE usuario=:usuario");
-    $query->bindParam("usuario", $usuario, PDO::PARAM_STR);
-    $query->execute();
- 
-    $result = $query->fetch(PDO::FETCH_ASSOC);
- 
-    if (!$result) {
-        echo '<p class="error">claves incorrectas!</p>';
-    } else {
-        if (password_verify($clave, $result['clave'])) {
-            $_SESSION['user_id'] = $result['id'];
-            $_SESSION['tipo'] = $result['tipo'];
-            header('Location: controller/redirec.php');
-        } else {
-            echo '<p class="error">Algo salio mal!</p>';
-        }
-    }
+if(!isset($_SESSION['tipo']) || $_SESSION['tipo'] != 2){
+    header('Location: ../../index.php');
+    exit;
+} else {
+    // Show users the page!
 }
- 
 ?>
 
+
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Soluciones RP</title>
+    <title>Administrador</title>
     <meta content="" name="descriptison">
     <meta content="" name="keywords">
 
@@ -53,16 +34,16 @@ if (isset($_POST['login'])) {
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
 
     <!-- CSS Externos -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/vendor/nivo-slider/css/nivo-slider.css" rel="stylesheet">
-    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="../../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="../../assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../assets/vendor/nivo-slider/css/nivo-slider.css" rel="stylesheet">
+    <link href="../../assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../../assets/vendor/venobox/venobox.css" rel="stylesheet">
 
     <!-- Estilos Principales de la página -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="../../assets/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -105,7 +86,7 @@ if (isset($_POST['login'])) {
 
                     </li>
 
-                    <li><a class="iniciar-sesion hover page-scroll" data-toggle="modal" data-target="#Modal">Iniciar Sesión</a></li>
+                    <li><a class="iniciar-sesion hover page-scroll" href="../../controller/cerrarSesion.php">Cerrar Sesi&oacute;n</a></li>
                 </ul>
             </nav><!-- fin del .nav-menu -->
 
@@ -116,9 +97,9 @@ if (isset($_POST['login'])) {
     <div id="home" class="slider-area">
         <div class="bend niceties preview-2">
             <div id="ensign-nivoslider" class="slides">
-                <img src="assets/img/slider/slider1.jpg" alt="" title="#slider-direction-1" />
-                <img src="assets/img/slider/slider2.jpg" alt="" title="#slider-direction-2" />
-                <img src="assets/img/slider/slider3.jpg" alt="" title="#slider-direction-3" />
+                <img src="../../assets/img/slider/slider1.jpg" alt="" title="#slider-direction-1" />
+                <img src="../../assets/img/slider/slider2.jpg" alt="" title="#slider-direction-2" />
+                <img src="../../assets/img/slider/slider3.jpg" alt="" title="#slider-direction-3" />
             </div>
 
             <!-- Slider 1 -->
@@ -1142,57 +1123,24 @@ if (isset($_POST['login'])) {
     <div id="preloader"></div>
 
     <!-- JS Externo -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/appear/jquery.appear.js"></script>
-    <script src="assets/vendor/knob/jquery.knob.js"></script>
-    <script src="assets/vendor/parallax/parallax.js"></script>
-    <script src="assets/vendor/wow/wow.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/nivo-slider/js/jquery.nivo.slider.js"></script>
-    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="../../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="../../assets/vendor/php-email-form/validate.js"></script>
+    <script src="../../assets/vendor/appear/jquery.appear.js"></script>
+    <script src="../../assets/vendor/knob/jquery.knob.js"></script>
+    <script src="../../assets/vendor/parallax/parallax.js"></script>
+    <script src="../../assets/vendor/wow/wow.min.js"></script>
+    <script src="../../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../../assets/vendor/nivo-slider/js/jquery.nivo.slider.js"></script>
+    <script src="../../assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="../../assets/vendor/venobox/venobox.min.js"></script>
 
     <!-- Js Principal de la página -->
-    <script src="assets/js/main.js"></script>
+    <script src="../../assets/js/main.js"></script>
 
-    <!-- Inicio Modal -->
-    <div class="modal" id="Modal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Iniciar Sesi&oacute;n</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-
-                <!-- Modal body -->
-                <div class="modal-body">
-                    <form action="" method="post">
-                        <div class="form-group">
-                            <label for="email">Usuario:</label>
-                            <input name="usuario_l" type="text" class="form-control" placeholder="Ingrese su correo" id="usuario_l">
-                        </div>
-                        <div class="form-group">
-                            <label for="pwd">Contrase&ntilde;a:</label>
-                            <input name="clave_l" type="password" class="form-control" placeholder="Escriba su contraseña" id="clave_l">
-                        </div>
-
-                        <button name="login" type="submit" class="btn btn-success" style="background-color: #3ec1d5; border-color: #3ec1d5;">Acceder</button>
-                    </form>
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
+   
+   
 
 </body>
 

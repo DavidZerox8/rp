@@ -5929,7 +5929,8 @@ a.close.disabled {
 .modal-open .modal {
   overflow-x: hidden;
   overflow-y: auto;
-}
+  position: absolute; 
+}    
 
 .modal {
   position: fixed;
@@ -6122,6 +6123,7 @@ a.close.disabled {
   .modal-dialog {
     max-width: 500px;
     margin: 1.75rem auto;
+      position: absolute;
   }
   .modal-dialog-scrollable {
     max-height: calc(100% - 3.5rem);

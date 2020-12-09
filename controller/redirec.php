@@ -8,4 +8,9 @@
     header('location: ../view/admin/index.php');
   }
 
+else
+{
+    header('location: ../index.php');
+}
+
  ?>

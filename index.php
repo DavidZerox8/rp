@@ -1,36 +1,11 @@
 <?php
- 
-include('controller/config.php');
-session_start();
- 
-if (isset($_POST['login'])) {
- 
-    $usuario = $_POST['usuario_l'];
-    $clave = $_POST['clave_l'];
- 
-    $query = $connection->prepare("SELECT * FROM usuarios WHERE usuario=:usuario");
-    $query->bindParam("usuario", $usuario, PDO::PARAM_STR);
-    $query->execute();
- 
-    $result = $query->fetch(PDO::FETCH_ASSOC);
- 
-    if (!$result) {
-        echo '<p class="error">claves incorrectas!</p>';
-    } else {
-        if (password_verify($clave, $result['clave'])) {
-            $_SESSION['user_id'] = $result['id'];
-            $_SESSION['tipo'] = $result['tipo'];
-            header('Location: controller/redirec.php');
-        } else {
-            echo '<p class="error">Algo salio mal!</p>';
-        }
-    }
-}
 
-if(isset($_SESSION['user_id'])){
+  session_start();
+
+  // isset verifica si existe una variable. 
+  if(isset($_SESSION['id'])){
     header('location: controller/redirec.php');
   }
- 
 ?>
 
 <!DOCTYPE html>
@@ -39,7 +14,7 @@ if(isset($_SESSION['user_id'])){
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+   
     <title>Soluciones RP</title>
     <meta content="" name="descriptison">
     <meta content="" name="keywords">
@@ -47,7 +22,6 @@ if(isset($_SESSION['user_id'])){
     <!-- Favicons - Insertar una vez tengamos el icono nuevo 
     
     https://code.tutsplus.com/es/tutorials/create-a-php-login-form--cms-33261
-    
     
     -->
     <link href="" rel="icon">
@@ -64,6 +38,7 @@ if(isset($_SESSION['user_id'])){
     <link href="assets/vendor/nivo-slider/css/nivo-slider.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    
 
     <!-- Estilos Principales de la página -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -109,7 +84,7 @@ if(isset($_SESSION['user_id'])){
 
                     </li>
 
-                    <li><a id="login_btn" name="login_btn" class="iniciar-sesion hover page-scroll" data-toggle="modal" data-target="#Modal">Iniciar Sesión</a></li>
+                    <li><a name="button" id="login" class="iniciar-sesion hover page-scroll" data-toggle="modal" data-target="#Modal">Iniciar Sesión</a></li>
                 </ul>
             </nav><!-- fin del .nav-menu -->
 
@@ -268,7 +243,7 @@ if(isset($_SESSION['user_id'])){
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="section-headline services-head text-center">
-                            <h2>Nuestros Servicios</h2>
+                            <h2>Servicios ASPEL</h2>
                         </div>
                     </div>
                 </div>
@@ -281,7 +256,7 @@ if(isset($_SESSION['user_id'])){
                                     <a class="services-icon" href="#">
                                         <i class="fa fa-code"></i>
                                     </a>
-                                    <h4>Desarrollo Web</h4>
+                                    <h4>Implementaci&oacute;n</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque velit dicta, delectus incidunt porro officiis fugiat, dolore explicabo. Dolor ipsum dolore debitis, culpa dolorem libero maxime, incidunt mollitia adipisci tenetur.
                                     </p>
@@ -323,6 +298,7 @@ if(isset($_SESSION['user_id'])){
                             <!-- fin de sección servicio -->
                         </div>
                     </div>
+                    <!-- Fin de las priemras 3 columnas -->
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <!-- fin col-md-4 -->
                         <div class=" about-move">
@@ -1145,7 +1121,6 @@ if(isset($_SESSION['user_id'])){
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
     <div id="preloader"></div>
 
-    <!-- JS Externo -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
@@ -1161,6 +1136,7 @@ if(isset($_SESSION['user_id'])){
 
     <!-- Js Principal de la página -->
     <script src="assets/js/main.js"></script>
+    
 
     <!-- Inicio Modal -->
     <div class="modal" id="Modal" style="position: fixed !important; z-index: 10000;">
@@ -1175,7 +1151,7 @@ if(isset($_SESSION['user_id'])){
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                    <form action="" method="post">
+                    <form action="controller/loginController.php" method="post">
                         <div class="form-group">
                             <label for="email">Usuario:</label>
                             <input name="usuario_l" type="text" class="form-control" placeholder="Ingrese su correo" id="usuario_l">

@@ -61,9 +61,8 @@ if(!isset($_SESSION['tipo']) || $_SESSION['tipo'] != 1){
 
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
-                    <li class="active"><a href="#header">Inicio</a></li>
-                    <li><a href="#about">Nosotros</a></li>
-                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#"><?php echo $_SESSION['nombre']; ?></a></li>
+                    <li class="active"><a href="#header">Inicio</a></li>                    
                     <li><a href="#team">Equipo</a></li>
                     <li><a href="#contact">Contacto</a></li>
 

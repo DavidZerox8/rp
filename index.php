@@ -52,9 +52,9 @@
         <div class="container d-flex">
 
             <div class="logo mr-auto">
-                <h1 class="text-light"><a href="index.html">Soluciones&nbsp;<span>RP</span></a></h1>
+                <h1 class="text-light"><a href="index.php">Soluciones&nbsp;<span>RP</span></a></h1>
                 <!-- Usar linea debajo una vez tengamos el logo -->
-                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+                <!-- <a href="index.php"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
 
             <nav id="nav" class="nav-menu d-none d-lg-block">
@@ -188,7 +188,7 @@
                             <table border="0" width="100%">
                                 <td style="text-align: center;">
                                     <div class="services-details">
-                                        <h4 style="cursor: pointer;" class="iniciar-sesion  page-scroll" data-toggle="modal" data-target="#vision">Visi&oacute;n</h4>
+                                        <h4 style="cursor: pointer;" class="iniciar-sesion page-scroll" data-toggle="modal" data-target="#vision">Visi&oacute;n</h4>
                                     </div>
                                 </td>
 
@@ -261,7 +261,7 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="section-headline services-head text-center">
-                            <h2>Servicios ASPEL</h2>
+                            <h2>Nuestros Servicios</h2>
                         </div>
                     </div>
                 </div>
@@ -272,9 +272,9 @@
                             <div class="services-details">
                                 <div class="single-services">
                                     <a class="services-icon" href="#">
-                                        <i class="fa fa-code"></i>
+                                        <i class="fa fa-edit"></i>
                                     </a>
-                                    <h4>Implementaci&oacute;n</h4>
+                                    <h4>Asesoria "Aspel"</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque velit dicta, delectus incidunt porro officiis fugiat, dolore explicabo. Dolor ipsum dolore debitis, culpa dolorem libero maxime, incidunt mollitia adipisci tenetur.
                                     </p>
@@ -288,9 +288,9 @@
                             <div class="services-details">
                                 <div class="single-services">
                                     <a class="services-icon" href="#">
-                                        <i class="fa fa-camera-retro"></i>
+                                        <i class="fa fa-users"></i>
                                     </a>
-                                    <h4>Diseño Gr&aacute;fico</h4>
+                                    <h4>Polizas Presenciales</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                                     </p>
@@ -305,9 +305,9 @@
                             <div class="services-details">
                                 <div class="single-services">
                                     <a class="services-icon" href="#">
-                                        <i class="fa fa-wordpress"></i>
+                                        <i class="fa fa-file-word-o"></i>
                                     </a>
-                                    <h4>Mejora de procesos</h4>
+                                    <h4>Creaci&oacute;n de Formatos</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                                     </p>
@@ -323,9 +323,9 @@
                             <div class="services-details">
                                 <div class="single-services">
                                     <a class="services-icon" href="#">
-                                        <i class="fa fa-camera-retro"></i>
+                                        <i class="fa fa-gears"></i>
                                     </a>
-                                    <h4>Marketing Digital</h4>
+                                    <h4>Capacitaci&oacute;n</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                                     </p>
@@ -341,9 +341,9 @@
                             <div class="services-details">
                                 <div class="single-services">
                                     <a class="services-icon" href="#">
-                                        <i class="fa fa-bar-chart"></i>
+                                        <i class="fa fa-desktop"></i>
                                     </a>
-                                    <h4>Analisis de negocio</h4>
+                                    <h4>Instalación de Software</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                                     </p>
@@ -359,9 +359,9 @@
                             <div class="services-details">
                                 <div class="single-services">
                                     <a class="services-icon" href="#">
-                                        <i class="fa fa-ticket"></i>
+                                        <i class="fa fa-code"></i>
                                     </a>
-                                    <h4>Soporte Técnico 24/7</h4>
+                                    <h4>Desarrollo Web</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                                     </p>
@@ -371,50 +371,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> <br>
+            <center><button class="btn btn-rp">Conocer m&aacute;s sobre nuestros servicios</button></center>
         </div><!-- fin seccion servicios -->
-
-        <!-- ======= Seccion habilidades/multiproposito ======= -->
-        <div class="our-skill-area fix hidden-sm">
-            <div class="test-overly"></div>
-            <div class="skill-bg area-padding-2">
-                <div class="container">
-                    <!-- fin section-heading  -->
-                    <div class="row">
-                        <!-- inicio single-skill  -->
-                        <div class="col-xs-12 col-sm-4 col-md-4 text-center">
-                            <div class="single-skill">
-                                <div class="progress-circular">
-                                    <input type="text" class="knob" value="0" data-rel="95" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled> <!-- Quitar los porcentajes en el Main JS  -->
-                                    <h3 class="progress-h4">Diseño Web</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- fin single-skill  -->
-                        <!-- inicio single-skill  -->
-                        <div class="col-xs-12 col-sm-4 col-md-4 text-center">
-                            <div class="single-skill">
-                                <div class="progress-circular">
-                                    <input type="text" class="knob" value="0" data-rel="85" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
-                                    <h3 class="progress-h4">Diseño Gr&aacute;fico</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- fin single-skill  -->
-                        <!-- inicio single-skill  -->
-                        <div class="col-xs-12 col-sm-4 col-md-4 text-center">
-                            <div class="single-skill">
-                                <div class="progress-circular">
-                                    <input type="text" class="knob" value="0" data-rel="75" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
-                                    <h3 class="progress-h4">Desarrollo BackEnd</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- fin single-skill  -->
-                    </div>
-                </div>
-            </div>
-        </div><!-- fin seccion habilidades -->
 
         <!-- ======= Seccion equipo [Recorda colocar los enlaces a las redes solciales correspondientes a cada miembro del equipo]======= -->
         <div id="team" class="our-team-area area-padding">
@@ -454,8 +413,8 @@
                                 </div>
                             </div>
                             <div class="team-content text-center">
-                                <h4>Erick Blanco</h4>
-                                <p>Seo</p>
+                                <h4>Lic. Cesar Zamora</h4>
+                                <p>Coordinador de operaciones</p>
                             </div>
                         </div>
                     </div>
@@ -487,8 +446,8 @@
                                 </div>
                             </div>
                             <div class="team-content text-center">
-                                <h4>Andres Mora</h4>
-                                <p>Desarrollador Web</p>
+                                <h4>Lic. Ericka Monroy</h4>
+                                <p>Coordinadora de Proyectos Aspel</p>
                             </div>
                         </div>
                     </div>
@@ -520,8 +479,8 @@
                                 </div>
                             </div>
                             <div class="team-content text-center">
-                                <h4>Carmen Salazar</h4>
-                                <p>Diseñadora Web</p>
+                                <h4>Frida Reyes</h4>
+                                <p>Asistente Administrativa</p>
                             </div>
                         </div>
                     </div>
@@ -553,8 +512,8 @@
                                 </div>
                             </div>
                             <div class="team-content text-center">
-                                <h4>Jhon P&eacute;rez</h4>
-                                <p>Contador</p>
+                                <h4>David Mart&iacute;nez</h4>
+                                <p>Soporte T&eacute;cnico Especializado</p>
                             </div>
                         </div>
                     </div>
@@ -567,11 +526,11 @@
         <div class="reviews-area">
             <div class="row no-gutters">
                 <div class="col-lg-6 py-0">
-                    <img src="assets/img/about/2.jpg" alt="" class="img-fluid">
+                   
                 </div>
                 <div class="col-lg-6 work-right-text d-flex align-items-center">
                     <div class="px-5 py-5 py-lg-0">
-                        <h2>¿Interesado en nuestro trabajo?</h2>
+                        <h2>¿Interesado?</h2>
                         <h5 style="text-align: justify; text-justify: inter-word;">Contamos con un equipo de trabajo de alto calibre que puede ayudarte a alcanzar el nivel que deseas .</h5>
                         <a href="#contact" class="ready-btn scrollto">Obten una cotizaci&oacute;n</a>
                     </div>
@@ -598,13 +557,13 @@
                                     <a href="#" class="active" data-filter="*">Todo</a>
                                 </li>
                                 <li>
-                                    <a href="#" data-filter=".development">Desarrollo</a>
+                                    <a href="#" data-filter=".development">Capacitaci&oacute;n</a>
                                 </li>
                                 <li>
-                                    <a href="#" data-filter=".design">Diseño</a>
+                                    <a href="#" data-filter=".design">Software</a>
                                 </li>
                                 <li>
-                                    <a href="#" data-filter=".photo">Photoshop</a>
+                                    <a href="#" data-filter=".photo">Redes</a>
                                 </li>
                             </ul>
                         </div>
@@ -718,118 +677,6 @@
             </div>
         </div><!-- fin seccion portafolio -->
 
-        <!-- ======= seccion polizas ======= -->
-        <div id="pricing" class="pricing-area area-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="section-headline text-center">
-                            <h2>Polizas</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="pri_table_list">
-                            <h3>b&aacute;sico <br /> <span>$1600 / mes</span></h3>
-                            <ol>
-                                <li class="check">Sistema Online</li>
-                                <li class="check cross">Acceso completo</li>
-                                <li class="check">App m&oacute;vil</li>
-                                <li class="check">Multiples plataformas</li>
-                                <li class="check cross">Capacitaci&oacute;n</li>
-                                <li class="check cross">Soporte 24/7</li>
-                                <li class="check">Transacciones en lineas</li>
-                                <li class="check cross">Asesoria</li>
-                            </ol>
-                            <button>Solicitar ahora</button>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="pri_table_list active">
-                            <span class="saleon">Oferta</span>
-                            <h3>Essentials <br /> <span>$3000 / mes</span></h3>
-                            <ol>
-                                <li class="check">Sistema Online</li>
-                                <li class="check">Acceso completo</li>
-                                <li class="check">App m&oacute;vil</li>
-                                <li class="check">Multiples plataformas</li>
-                                <li class="check cross">Capacitaci&oacute;n</li>
-                                <li class="check">Soporte 24/7</li>
-                                <li class="check">Transacciones en lineas</li>
-                                <li class="check cross">Asesoria</li>
-                            </ol>
-                            <button>Solicitar ahora</button>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="pri_table_list">
-                            <h3>premium <br /> <span>$4200 / mes</span></h3>
-                            <ol>
-                                <li class="check">Sistema Online</li>
-                                <li class="check">Acceso completo</li>
-                                <li class="check">App m&oacute;vil</li>
-                                <li class="check">Multiples plataformas</li>
-                                <li class="check">Capacitaci&oacute;n</li>
-                                <li class="check">Soporte 24/7</li>
-                                <li class="check">Transacciones en lineas</li>
-                                <li class="check">Asesoria</li>
-                            </ol>
-                            <button>Solicitar ahora</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- fin polizas -->
-
-        <!-- ======= seccion de testimonios [Consultar viabilidad y personas que puedan dar su testimonio] ======= -->
-        <div class="testimonials-area">
-            <div class="testi-inner area-padding">
-                <div class="testi-overly"></div>
-                <div class="container ">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <!-- Start testimonials Start -->
-                            <div class="testimonial-content text-center">
-                                <a class="quate" href="#"><i class="fa fa-quote-right"></i></a>
-                                <!-- start testimonial carousel -->
-                                <div class="owl-carousel testimonial-carousel">
-                                    <div class="single-testi">
-                                        <div class="testi-text">
-                                            <p style="text-align: justify; text-justify: inter-word;" s>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum iure, doloribus alias amet explicabo sed molestiae et iste! Deserunt magni iste deleniti consequuntur reprehenderit, porro tempora tempore quae et quia.
-                                            </p>
-                                            <h6>Julieta - Aspel M&eacute;xico</h6>
-                                        </div>
-                                    </div>
-                                    <!-- End single item -->
-                                    <div class="single-testi">
-                                        <div class="testi-text">
-                                            <p style="text-align: justify; text-justify: inter-word;">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo possimus quod laborum voluptas similique vero tempora ducimus nostrum debitis praesentium alias a, ipsam. Corporis alias ut, ullam, pariatur ipsa ad!
-                                            </p>
-                                            <h6>Eduardo - Soluciones RP</h6>
-                                        </div>
-                                    </div>
-                                    <!-- End single item -->
-                                    <div class="single-testi">
-                                        <div class="testi-text">
-                                            <p style="text-align: justify; text-justify: inter-word;">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ex totam odio quae, et fuga sunt. Sit neque tempora quod quibusdam ex inventore praesentium commodi explicabo modi, cupiditate necessitatibus cumque.
-                                            </p>
-                                            <h6>Frida - SEDEMAR</h6>
-                                        </div>
-                                    </div>
-                                    <!-- End single item -->
-                                </div>
-                            </div>
-                            <!-- End testimonials end -->
-                        </div>
-                        <!-- End Right Feature -->
-                    </div>
-                </div>
-            </div>
-        </div><!-- fin seccion testimonios -->
 
         <!-- ======= Seccion noticias ======= -->
         <div id="blog" class="blog-area">
@@ -1052,8 +899,8 @@
         </div><!-- fin seccion contacto-->
         
         <!-- Inicio Modal -->
-    <div class="modal" id="Modal" style="position: fixed !important; z-index: 10000;">
-        <div class="modal-dialog">
+    <div class="modal fade" id="Modal" style="position: fixed !important; z-index: 10000;">
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
 
                 <!-- Modal Header -->
@@ -1162,7 +1009,7 @@
                                     <h2>Soluciones&nbsp;<span>RP</span></h2>
                                 </div>
                                 <p style="text-align: justify; text-justify: inter-word;">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure minus perferendis ab. Voluptatum repudiandae doloremque doloribus esse magni nam sed fuga eos hic eum distinctio similique, tenetur iure architecto beatae?
+                                    Tenemos el prop&oacute;sito de ayudar a alcanzar la excelencia de nuestros clientes, apoy&aacute;ndolos en el aumento de su competitividad y a lograr su objetivo organizacional.
                                 </p>
                                 <div class="footer-icons">
                                     <ul>
@@ -1188,13 +1035,10 @@
                         <div class="footer-content">
                             <div class="footer-head">
                                 <h4>Informaci&oacute;n</h4>
-                                <p style="text-align: justify; text-justify: inter-word;">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                                </p>
                                 <div class="footer-contacts">
-                                    <p><span>Tel:</span> +52 55-5362-0004</p>
-                                    <p><span>Email:</span> info@solucionesrp.com</p>
-                                    <p><span>Horario:</span> 9am a 6pm</p>
+                                    <p><span>Tel:</span> +52 55-5362-0004.</p>
+                                    <p><span>Email:</span> info@solucionesrp.com.</p>
+                                    <p><span>Horario:</span> 9am a 6pm.</p>
                                 </div>
                             </div>
                         </div>

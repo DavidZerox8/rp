@@ -933,6 +933,18 @@ preview-2
   margin-bottom: 20px;
 }
 
+.btn-rp {
+  color: #fff;
+  background-color: #3EC1D5;
+  border-color: #3EC1D5;
+}
+
+.btn-rp:hover {
+  color: #fff;
+  background-color: #28a9bd;
+  border-color: #28a9bd;
+}
+
 .section-headline.services-head > h2 {
   margin-bottom: 25px;
 }
@@ -1024,7 +1036,7 @@ preview-2
 }
 
 .single-team-member {
-  border: 1px solid #ddd;
+  /* border: 1px solid white; */
 }
 
 .team-left-text h4 {
@@ -2776,4 +2788,12 @@ span.email-notes {
     -o-animation: autoSlider 15s infinite linear;
     -webkit-animation: autoSlider 15s infinite linear;
     animation: autoSlider 15s infinite linear;
+}
+
+.our-team-area {
+    background-color: #f9f9f9;
+}
+
+.title2 {
+    
 }

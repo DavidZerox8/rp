@@ -1,3 +1,175 @@
 Barra de busqueda. 
 Paginacion. 
 Menus desplegables. 
+
+
+
+<-- En caso de requerir los elementos cuantitativos -->
+
+
+<!-- ======= Seccion habilidades/multiproposito ======= -->
+        <div class="our-skill-area fix hidden-sm">
+            <div class="test-overly"></div>
+            <div class="skill-bg area-padding-2">
+                <div class="container">
+                    <!-- fin section-heading  -->
+                    <div class="row">
+                        <!-- inicio single-skill  -->
+                        <div class="col-xs-12 col-sm-4 col-md-4 text-center">
+                            <div class="single-skill">
+                                <div class="progress-circular">
+                                    <input type="text" class="knob" value="0" data-rel="95" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled> <!-- Quitar los porcentajes en el Main JS  -->
+                                    <h3 class="progress-h4">Diseño Web</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin single-skill  -->
+                        <!-- inicio single-skill  -->
+                        <div class="col-xs-12 col-sm-4 col-md-4 text-center">
+                            <div class="single-skill">
+                                <div class="progress-circular">
+                                    <input type="text" class="knob" value="0" data-rel="85" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
+                                    <h3 class="progress-h4">Diseño Gr&aacute;fico</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin single-skill  -->
+                        <!-- inicio single-skill  -->
+                        <div class="col-xs-12 col-sm-4 col-md-4 text-center">
+                            <div class="single-skill">
+                                <div class="progress-circular">
+                                    <input type="text" class="knob" value="0" data-rel="75" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
+                                    <h3 class="progress-h4">Desarrollo BackEnd</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin single-skill  -->
+                    </div>
+                </div>
+            </div>
+        </div><!-- fin seccion habilidades -->
+
+<-- -->
+
+
+<-- Seccion de polizas para precios -->
+
+ <!-- ======= seccion polizas ======= -->
+        <div id="pricing" class="pricing-area area-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-headline text-center">
+                            <h2>Polizas</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="pri_table_list">
+                            <h3>b&aacute;sico <br /> <span>$1600 / mes</span></h3>
+                            <ol>
+                                <li class="check">Sistema Online</li>
+                                <li class="check cross">Acceso completo</li>
+                                <li class="check">App m&oacute;vil</li>
+                                <li class="check">Multiples plataformas</li>
+                                <li class="check cross">Capacitaci&oacute;n</li>
+                                <li class="check cross">Soporte 24/7</li>
+                                <li class="check">Transacciones en lineas</li>
+                                <li class="check cross">Asesoria</li>
+                            </ol>
+                            <button>Solicitar ahora</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="pri_table_list active">
+                            <span class="saleon">Oferta</span>
+                            <h3>Essentials <br /> <span>$3000 / mes</span></h3>
+                            <ol>
+                                <li class="check">Sistema Online</li>
+                                <li class="check">Acceso completo</li>
+                                <li class="check">App m&oacute;vil</li>
+                                <li class="check">Multiples plataformas</li>
+                                <li class="check cross">Capacitaci&oacute;n</li>
+                                <li class="check">Soporte 24/7</li>
+                                <li class="check">Transacciones en lineas</li>
+                                <li class="check cross">Asesoria</li>
+                            </ol>
+                            <button>Solicitar ahora</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="pri_table_list">
+                            <h3>premium <br /> <span>$4200 / mes</span></h3>
+                            <ol>
+                                <li class="check">Sistema Online</li>
+                                <li class="check">Acceso completo</li>
+                                <li class="check">App m&oacute;vil</li>
+                                <li class="check">Multiples plataformas</li>
+                                <li class="check">Capacitaci&oacute;n</li>
+                                <li class="check">Soporte 24/7</li>
+                                <li class="check">Transacciones en lineas</li>
+                                <li class="check">Asesoria</li>
+                            </ol>
+                            <button>Solicitar ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- fin polizas -->
+        
+<-- -->
+
+
+<-- Seccion para testimonios -->
+
+<!-- ======= seccion de testimonios [Consultar viabilidad y personas que puedan dar su testimonio] ======= -->
+        <div class="testimonials-area">
+            <div class="testi-inner area-padding">
+                <div class="testi-overly"></div>
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <!-- Start testimonials Start -->
+                            <div class="testimonial-content text-center">
+                                <a class="quate" href="#"><i class="fa fa-quote-right"></i></a>
+                                <!-- start testimonial carousel -->
+                                <div class="owl-carousel testimonial-carousel">
+                                    <div class="single-testi">
+                                        <div class="testi-text">
+                                            <p style="text-align: justify; text-justify: inter-word;" s>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum iure, doloribus alias amet explicabo sed molestiae et iste! Deserunt magni iste deleniti consequuntur reprehenderit, porro tempora tempore quae et quia.
+                                            </p>
+                                            <h6>Julieta - Aspel M&eacute;xico</h6>
+                                        </div>
+                                    </div>
+                                    <!-- End single item -->
+                                    <div class="single-testi">
+                                        <div class="testi-text">
+                                            <p style="text-align: justify; text-justify: inter-word;">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo possimus quod laborum voluptas similique vero tempora ducimus nostrum debitis praesentium alias a, ipsam. Corporis alias ut, ullam, pariatur ipsa ad!
+                                            </p>
+                                            <h6>Eduardo - Soluciones RP</h6>
+                                        </div>
+                                    </div>
+                                    <!-- End single item -->
+                                    <div class="single-testi">
+                                        <div class="testi-text">
+                                            <p style="text-align: justify; text-justify: inter-word;">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ex totam odio quae, et fuga sunt. Sit neque tempora quod quibusdam ex inventore praesentium commodi explicabo modi, cupiditate necessitatibus cumque.
+                                            </p>
+                                            <h6>Frida - SEDEMAR</h6>
+                                        </div>
+                                    </div>
+                                    <!-- End single item -->
+                                </div>
+                            </div>
+                            <!-- End testimonials end -->
+                        </div>
+                        <!-- End Right Feature -->
+                    </div>
+                </div>
+            </div>
+        </div><!-- fin seccion testimonios -->
+        
+<-- -->         

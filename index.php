@@ -14,7 +14,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-   
+
     <title>Soluciones RP</title>
     <meta content="" name="descriptison">
     <meta content="" name="keywords">
@@ -38,11 +38,11 @@
     <link href="assets/vendor/nivo-slider/css/nivo-slider.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-    
+
 
     <!-- Estilos Principales de la página -->
     <link href="assets/css/style.css" rel="stylesheet">
-    
+
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">
@@ -108,11 +108,11 @@
                             <div class="slider-content">
                                 <!-- linea 1 -->
                                 <div class="layer-1-1 hidden-xs wow animate__slideInDown animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                                    <h2 class="title1">Soluciones acordes a tus necesidades</h2>
+                                    <h2 class="title1">Conocenos.</h2>
                                 </div>
                                 <!-- linea 2 -->
                                 <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                                    <h1 class="title2">Estamos a tus ordenes para mejorar tu negocio</h1>
+                                    <h1 class="title2">Estamos a tus ordenes para mejorar tu negocio.</h1>
                                 </div>
                                 <!-- linea 3 -->
                                 <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
@@ -133,11 +133,11 @@
                             <div class="slider-content text-center">
                                 <!-- linea 1 -->
                                 <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                                    <h2 class="title1">¿Neceistas capacitaci&oacute;n?</h2>
+                                    <h2 class="title1">¿Buscas capacitaci&oacute;n?</h2>
                                 </div>
                                 <!-- linea 2 -->
                                 <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".1s">
-                                    <h1 class="title2">Contamos con modalidades para todo tipo de ambiente</h1>
+                                    <h1 class="title2">Contamos con modalidades para todo tipo de ambiente.</h1>
                                 </div>
                                 <!-- linea 3 -->
                                 <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
@@ -157,11 +157,11 @@
                             <div class="slider-content">
                                 <!-- linea 1 -->
                                 <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                                    <h2 class="title1">Contamos con el Software que necesitas para mejorar tus procesos</h2>
+                                    <h2 class="title1">¿Buscar agilizar tus procesos?</h2>
                                 </div>
                                 <!-- linea 2 -->
                                 <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".1s">
-                                    <h1 class="title2">Consulta las formas de implementación</h1>
+                                    <h1 class="title2">Contamos con el software que necesitas.</h1>
                                 </div>
                                 <!-- linea 3 -->
                                 <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
@@ -183,21 +183,36 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="section-headline text-center">
+                        <div class=" text-center">
                             <h2>¿Qui&eacute;nes Somos?</h2>
+                            <table border="0" width="100%">
+                                <td style="text-align: center;">
+                                    <div class="services-details">
+                                        <h4 style="cursor: pointer;" class="iniciar-sesion  page-scroll" data-toggle="modal" data-target="#vision">Visi&oacute;n</h4>
+                                    </div>
+                                </td>
+
+                                <td style="text-align: center;">
+                                    <div class="services-details">
+                                        <h4 style="cursor: pointer;" class="iniciar-sesion  page-scroll" data-toggle="modal" data-target="#mision">Misi&oacute;n</h4>
+                                    </div>
+                                </td>
+                            </table>
                         </div>
                     </div>
                 </div>
+
                 <div class="row">
                     <!-- Inicio single-well -->
-                    <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-md-6 col-sm-6 col-xs-12"> <br> <br>
                         <div class="well-left">
                             <div class="single-well">
                                 <a href="#">
                                     <img src="assets/img/about/uno.jpg" alt="">
                                 </a>
                             </div>
-                        </div>
+                        </div> <br> <br>
+
                     </div>
                     <!-- Fin single-well -->
                     <div class="col-md-6 col-sm-6 col-xs-12">
@@ -209,6 +224,9 @@
                                 <p style="text-align: justify; text-justify: inter-word;">
                                     Somos un proyecto mexicano que brinda soluciones tecnológicas a las pequeñas y medianas empresas, especializados en la automatización de procesos administrativos con las mejores alternativas para el cliente.
                                 </p>
+                                <p>Nuestras soluciones tecnológicas se apegan a
+                                    estadares de calidad y facilitan el cumplimiento
+                                    de las reformas fiscales actuales.</p>
                                 <ul>
                                     <a href="#">
                                         <h4 class="sec-head">Nuestros Valores</h4>
@@ -1032,6 +1050,103 @@
                 </div>
             </div>
         </div><!-- fin seccion contacto-->
+        
+        <!-- Inicio Modal -->
+    <div class="modal" id="Modal" style="position: fixed !important; z-index: 10000;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Iniciar Sesi&oacute;n</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="controller/loginController.php" method="post">
+                        <div class="form-group">
+                            <label for="email">Usuario:</label>
+                            <input name="usuario_l" type="text" class="form-control" placeholder="Ingrese su correo" id="usuario_l">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Contrase&ntilde;a:</label>
+                            <input name="clave_l" type="password" class="form-control" placeholder="Escriba su contraseña" id="clave_l">
+                        </div>
+
+                        <button name="login" type="submit" class="btn btn-success" style="background-color: #3ec1d5; border-color: #3ec1d5;">Acceder</button>
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de mision -->
+
+    <div class="modal fade" id="vision">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Nuestra visi&oacute;n</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p style="text-align: justify; text-justify: inter-word;">Ser una empresa referente con soluciones
+                        tecnol&oacute;gicas para implementar procesos
+                        exitosos acorde a las necesidades de nuestros
+                        cliente y un servicio basado en la empatía.
+                    </p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de vision -->
+
+    <div class="modal fade" id="mision">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Nuestra misi&oacute;n</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p style="text-align: justify; text-justify: inter-word;">Proveer a las pequeñas y medianas empresas
+                        con avanzadas e innovadoras herramientas
+                        tecnol&oacute;gicas para automatizar sus procesos
+                        productivos.
+
+                    </p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     </main><!-- fin del #main -->
 
@@ -1136,43 +1251,6 @@
 
     <!-- Js Principal de la página -->
     <script src="assets/js/main.js"></script>
-    
-
-    <!-- Inicio Modal -->
-    <div class="modal" id="Modal" style="position: fixed !important; z-index: 10000;">
-        <div class="modal-dialog">
-            <div class="modal-content">
-
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Iniciar Sesi&oacute;n</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-
-                <!-- Modal body -->
-                <div class="modal-body">
-                    <form action="controller/loginController.php" method="post">
-                        <div class="form-group">
-                            <label for="email">Usuario:</label>
-                            <input name="usuario_l" type="text" class="form-control" placeholder="Ingrese su correo" id="usuario_l">
-                        </div>
-                        <div class="form-group">
-                            <label for="pwd">Contrase&ntilde;a:</label>
-                            <input name="clave_l" type="password" class="form-control" placeholder="Escriba su contraseña" id="clave_l">
-                        </div>
-
-                        <button name="login" type="submit" class="btn btn-success" style="background-color: #3ec1d5; border-color: #3ec1d5;">Acceder</button>
-                    </form>
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
 
 </body>
 

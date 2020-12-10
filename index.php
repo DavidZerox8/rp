@@ -372,7 +372,7 @@
                     </div>
                 </div>
             </div> <br>
-            <center><button class="btn btn-rp">Conocer m&aacute;s sobre nuestros servicios</button></center>
+            <center><a href="servicios.php"><button class="btn btn-rp">Conocer m&aacute;s sobre nuestros servicios</button></a></center>
         </div><!-- fin seccion servicios -->
 
         <!-- ======= Seccion equipo [Recorda colocar los enlaces a las redes solciales correspondientes a cada miembro del equipo]======= -->

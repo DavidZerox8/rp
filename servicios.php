@@ -58,6 +58,7 @@
         input[type=search]:focus {
             width: 100%;
         }
+
     </style>
 
 </head>
@@ -76,7 +77,7 @@
 
             <nav id="nav" class="nav-menu d-none d-lg-block">
                 <ul>
-                    <li class="active"><a href="#header">Inicio</a></li>
+                    <li class="active"><a href="index.php">Inicio</a></li>
                     <li><a href="#about">Nosotros</a></li>
                     <li><a href="#services">Servicios</a></li>
                     <li><a href="#team">Equipo</a></li>
@@ -138,11 +139,11 @@
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="page-head-blog">
                             <div class="single-blog-page">
-                               
+
                                 <!-- barra de busqueda -->
                                 <form>
                                     <input type="search" name="buscar" placeholder="Buscar..">
-                                <!--    <input type="button" class="btn btn-rp" value="Ir"> -->
+                                    <!--    <input type="button" class="btn btn-rp" value="Ir"> -->
                                 </form>
                                 <!-- fin de la barra de busqueda -->
                             </div>
@@ -150,28 +151,19 @@
                             <!-- Barra laterial de secciones -->
                             <div class="single-blog-page">
                                 <div class="left-blog">
-                                    <h4>categories</h4>
+                                    <h4>Categorias</h4>
                                     <ul>
                                         <li>
-                                            <a href="#">Portfolio</a>
+                                            <a href="#">Portafolio</a>
                                         </li>
                                         <li>
-                                            <a href="#">Project</a>
+                                            <a href="#">Proyectos</a>
                                         </li>
                                         <li>
-                                            <a href="#">Design</a>
+                                            <a href="#">Diseño</a>
                                         </li>
                                         <li>
-                                            <a href="#">wordpress</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Joomla</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Html</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Website</a>
+                                            <a href="#">Web</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -180,31 +172,19 @@
                             <div class="single-blog-page">
                                 <div class="left-tags blog-tags">
                                     <div class="popular-tag left-side-tags left-blog">
-                                        <h4>popular tags</h4>
+                                        <h4>Etiquetas populares</h4>
                                         <ul>
                                             <li>
-                                                <a href="#">Portfolio</a>
+                                                <a href="#">Portafolio</a>
                                             </li>
                                             <li>
-                                                <a href="#">Project</a>
+                                                <a href="#">Proyectos</a>
                                             </li>
                                             <li>
-                                                <a href="#">Design</a>
+                                                <a href="#">Diseño</a>
                                             </li>
                                             <li>
-                                                <a href="#">wordpress</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Joomla</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Html</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Masonry</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Website</a>
+                                                <a href="#">Web</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -212,12 +192,12 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End left sidebar -->
-                    <!-- Start single blog -->
+                    <!-- fin de barra lateral -->
+                    <!-- inicio de seccion del blog -->
                     <div class="col-md-8 col-sm-8 col-xs-12">
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
-                                <!-- single-blog start -->
+                                <!-- inicio seccion -->
                                 <article class="blog-post-wrapper">
                                     <div class="post-thumbnail">
                                         <img src="assets/img/blog/6.jpg" alt="" />
@@ -313,7 +293,7 @@
                                         </div>
                                     </div>
                                     <div class="comment-respond">
-                                        <h3 class="comment-reply-title">Leave a Reply </h3>
+                                        <h3 class="comment-reply-title">¿Interesado el agun servicio?</h3>
                                         <span class="email-notes">Your email address will not be published. Required fields are marked *</span>
                                         <form action="#">
                                             <div class="row">
@@ -349,7 +329,7 @@
     </main><!-- fin del #main -->
 
     <!-- ======= pie de pagina ======= -->
-    <footer>
+   <footer>
         <div class="footer-area">
             <div class="container">
                 <div class="row">
@@ -357,10 +337,11 @@
                         <div class="footer-content">
                             <div class="footer-head">
                                 <div class="footer-logo">
-                                    <h2><span>e</span>Business</h2>
+                                    <h2>Soluciones&nbsp;<span>RP</span></h2>
                                 </div>
-
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                                <p style="text-align: justify; text-justify: inter-word;">
+                                    Tenemos el prop&oacute;sito de ayudar a alcanzar la excelencia de nuestros clientes, apoy&aacute;ndolos en el aumento de su competitividad y a lograr su objetivo organizacional.
+                                </p>
                                 <div class="footer-icons">
                                     <ul>
                                         <li>
@@ -380,23 +361,20 @@
                             </div>
                         </div>
                     </div>
-                    <!-- end single footer -->
+                    <!-- fin columna 1 -->
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="footer-content">
                             <div class="footer-head">
-                                <h4>information</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                                </p>
+                                <h4>Informaci&oacute;n</h4>
                                 <div class="footer-contacts">
-                                    <p><span>Tel:</span> +123 456 789</p>
-                                    <p><span>Email:</span> contact@example.com</p>
-                                    <p><span>Working Hours:</span> 9am-5pm</p>
+                                    <p><span>Tel:</span> +52 55-5362-0004.</p>
+                                    <p><span>Email:</span> info@solucionesrp.com.</p>
+                                    <p><span>Horario:</span> 9am a 6pm.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- end single footer -->
+                    <!-- fin columna 2 -->
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="footer-content">
                             <div class="footer-head">
@@ -421,23 +399,14 @@
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="copyright text-center">
                             <p>
-                                &copy; Copyright <strong>eBusiness</strong>. All Rights Reserved
+                                &copy; Copyright <strong>Soluciones RP</strong>. <br>Todos los derechos reservados
                             </p>
-                        </div>
-                        <div class="credits">
-                            <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eBusiness
-            -->
-                            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer><!-- End  Footer -->
+    </footer><!-- fin pie de página -->
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
     <div id="preloader"></div>

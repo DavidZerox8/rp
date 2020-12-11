@@ -1000,7 +1000,7 @@
             </div>
         </div><!-- fin seccion contacto-->
         
-        <!-- Inicio Modal -->
+        <!-- Modal Login -->
     <div class="modal fade" id="Modal" style="position: fixed !important; z-index: 10000;">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">

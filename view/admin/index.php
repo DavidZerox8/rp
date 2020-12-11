@@ -63,7 +63,7 @@ if(!isset($_SESSION['tipo']) || $_SESSION['tipo'] != 2){
                 <ul>
                     <li><a href="#"><?php echo $_SESSION['nombre']; ?></a></li>
                     <li class="active"><a href="#header">Inicio</a></li>                    
-                    <li><a href="#team">Equipo</a></li>
+                    <li><a href="panel.php">Panel</a></li>
                     <li><a href="#contact">Contacto</a></li>
 
                     <li>

@@ -58,7 +58,7 @@
         input[type=search]:focus {
             width: 100%;
         }
-        
+
     </style>
 
 </head>
@@ -326,10 +326,46 @@
             </div>
         </div><!-- Final de la pagina de servicios-->
 
+        <!-- Modal Login -->
+        <div class="modal fade" id="Modal" style="position: fixed !important; z-index: 10000;">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Iniciar Sesi&oacute;n</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <form action="controller/loginController.php" method="post">
+                            <div class="form-group">
+                                <label for="email">Usuario:</label>
+                                <input name="usuario_l" type="text" class="form-control" placeholder="Ingrese su correo" id="usuario_l">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Contrase&ntilde;a:</label>
+                                <input name="clave_l" type="password" class="form-control" placeholder="Escriba su contraseña" id="clave_l">
+                            </div>
+
+                            <button name="login" type="submit" class="btn btn-success" style="background-color: #3ec1d5; border-color: #3ec1d5;">Acceder</button>
+                        </form>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
     </main><!-- fin del #main -->
 
     <!-- ======= pie de pagina ======= -->
-   <footer>
+    <footer>
         <div class="footer-area">
             <div class="container">
                 <div class="row">

@@ -622,83 +622,15 @@
 
                 <div class="row awesome-project-content">
                     <!-- inicio single-awesome-project -->
-                    <div class="col-md-4 col-sm-4 col-xs-12 design development">
-                        <div class="single-awesome-project">
-                            <div class="awesome-img">
-                                <a href="#"><img src="assets/img/portfolio/1.jpg" alt="" /></a>
-                                <div class="add-actions text-center">
-                                    <div class="project-dec">
-                                        <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/1.jpg">
-                                            <h4>Negocios</h4>
-                                            <span>Desarrollo Web</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- fin single-awesome-project  -->
-                    <!-- inicio single-awesome-project  -->
-                    <div class="col-md-4 col-sm-4 col-xs-12 photo">
-                        <div class="single-awesome-project">
-                            <div class="awesome-img">
-                                <a href="#"><img src="assets/img/portfolio/2.jpg" alt="" /></a>
-                                <div class="add-actions text-center">
-                                    <div class="project-dec">
-                                        <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/2.jpg">
-                                            <h4>Ideas</h4>
-                                            <span>Photoshop</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- fin single-awesome-project  -->
-                    <!-- inicio single-awesome-project  -->
-                    <div class="col-md-4 col-sm-4 col-xs-12 design">
-                        <div class="single-awesome-project">
-                            <div class="awesome-img">
-                                <a href="#"><img src="assets/img/portfolio/3.jpg" alt="" /></a>
-                                <div class="add-actions text-center">
-                                    <div class="project-dec">
-                                        <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/3.jpg">
-                                            <h4>Naturaleza</h4>
-                                            <span>Diseño Web</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- fin single-awesome-project  -->
-                    <!-- inicio single-awesome-project  -->
-                    <div class="col-md-4 col-sm-4 col-xs-12 photo development">
-                        <div class="single-awesome-project">
-                            <div class="awesome-img">
-                                <a href="#"><img src="assets/img/portfolio/4.jpg" alt="" /></a>
-                                <div class="add-actions text-center">
-                                    <div class="project-dec">
-                                        <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/4.jpg">
-                                            <h4>Equipo Creativo</h4>
-                                            <span>Diseño Web</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- fin single-awesome-project  -->
-                    <!-- inicio single-awesome-project  -->
                     <div class="col-md-4 col-sm-4 col-xs-12 capacitacion">
                         <div class="single-awesome-project">
                             <div class="awesome-img">
-                                <a href="#"><img src="assets/img/portfolio/5.jpg" alt="" /></a>
-                                <div class="add-actions text-center text-center">
+                                <a href="#"><img src="assets/img/portfolio/capac/1.JPG" alt="" /></a>
+                                <div class="add-actions text-center">
                                     <div class="project-dec">
-                                        <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/5.jpg">
-                                            <h4>Otras opciones</h4>
-                                            <span>Desarrollo Web</span>
+                                        <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/capac/1.JPG">
+                                            <h4>Capacitaci&oacute;n</h4>
+                                            <span>ASPEL</span>
                                         </a>
                                     </div>
                                 </div>
@@ -706,16 +638,136 @@
                         </div>
                     </div>
                     <!-- fin single-awesome-project  -->
-                    <!-- inicio single-awesome-project  -->
-                    <div class="col-md-4 col-sm-4 col-xs-12 design photo">
+                    
+                    <!-- inicio single-awesome-project -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 capacitacion">
                         <div class="single-awesome-project">
                             <div class="awesome-img">
-                                <a href="#"><img src="assets/img/portfolio/6.jpg" alt="" /></a>
+                                <a href="#"><img src="assets/img/portfolio/capac/20.JPG" alt="" /></a>
                                 <div class="add-actions text-center">
                                     <div class="project-dec">
-                                        <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/6.jpg">
-                                            <h4>M&aacute;s</h4>
-                                            <span>Photoshop</span>
+                                        <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/capac/20.JPG">
+                                            <h4>Capacitaci&oacute;n</h4>
+                                            <span>ASPEL</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin single-awesome-project  -->
+                    <!-- inicio single-awesome-project -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 software">
+                        <div class="single-awesome-project">
+                            <div class="awesome-img">
+                                <a href="#"><img src="assets/img/portfolio/capac/12.JPG" alt="" /></a>
+                                <div class="add-actions text-center">
+                                    <div class="project-dec">
+                                        <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/capac/12.JPG">
+                                            <h4>Capacitaci&oacute;n</h4>
+                                            <span>ASPEL</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin single-awesome-project  -->
+                    <!-- inicio single-awesome-project -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 capacitacion">
+                        <div class="single-awesome-project">
+                            <div class="awesome-img">
+                                <a href="#"><img src="assets/img/portfolio/capac/4.JPG" alt="" /></a>
+                                <div class="add-actions text-center">
+                                    <div class="project-dec">
+                                        <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/capac/4.JPG">
+                                            <h4>Capacitaci&oacute;n</h4>
+                                            <span>ASPEL</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin single-awesome-project  -->
+                    <!-- inicio single-awesome-project -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 capacitacion">
+                        <div class="single-awesome-project">
+                            <div class="awesome-img">
+                                <a href="#"><img src="assets/img/portfolio/capac/9.JPG" alt="" /></a>
+                                <div class="add-actions text-center">
+                                    <div class="project-dec">
+                                        <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/capac/9.JPG">
+                                            <h4>Capacitaci&oacute;n</h4>
+                                            <span>ASPEL</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin single-awesome-project  -->
+                    <!-- inicio single-awesome-project -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 redes">
+                        <div class="single-awesome-project">
+                            <div class="awesome-img">
+                                <a href="#"><img src="assets/img/portfolio/capac/21.JPG" alt="" /></a>
+                                <div class="add-actions text-center">
+                                    <div class="project-dec">
+                                        <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/capac/21.JPG">
+                                            <h4>Capacitaci&oacute;n</h4>
+                                            <span>ASPEL</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin single-awesome-project  -->
+                    <!-- inicio single-awesome-project -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 software">
+                        <div class="single-awesome-project">
+                            <div class="awesome-img">
+                                <a href="#"><img src="assets/img/portfolio/capac/7.JPG" alt="" /></a>
+                                <div class="add-actions text-center">
+                                    <div class="project-dec">
+                                        <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/capac/7.JPG">
+                                            <h4>Capacitaci&oacute;n</h4>
+                                            <span>ASPEL</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin single-awesome-project  -->
+                    <!-- inicio single-awesome-project -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 redes">
+                        <div class="single-awesome-project">
+                            <div class="awesome-img">
+                                <a href="#"><img src="assets/img/portfolio/capac/15.JPG" alt="" /></a>
+                                <div class="add-actions text-center">
+                                    <div class="project-dec">
+                                        <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/capac/15.JPG">
+                                            <h4>Capacitaci&oacute;n</h4>
+                                            <span>ASPEL</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin single-awesome-project  -->
+                    <!-- inicio single-awesome-project -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 redes">
+                        <div class="single-awesome-project">
+                            <div class="awesome-img">
+                                <a href="#"><img src="assets/img/portfolio/capac/23.JPG" alt="" /></a>
+                                <div class="add-actions text-center">
+                                    <div class="project-dec">
+                                        <a class="venobox" data-gall="myGallery" href="assets/img/portfolio/capac/23.JPG">
+                                            <h4>Capacitaci&oacute;n</h4>
+                                            <span>ASPEL</span>
                                         </a>
                                     </div>
                                 </div>

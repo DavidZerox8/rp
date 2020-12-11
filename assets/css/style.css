@@ -1317,9 +1317,9 @@ preview-2
   position: relative;
 }
 
-.single-awesome-project:hover .awesome-img > a::after {
+/*.single-awesome-project:hover .awesome-img > a::after {
   opacity: 1;
-}
+}*/
 
 .single-awesome-project:hover .add-actions {
   opacity: 1;

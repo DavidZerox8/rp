@@ -58,7 +58,7 @@
         input[type=search]:focus {
             width: 100%;
         }
-
+        
     </style>
 
 </head>
@@ -142,7 +142,7 @@
 
                                 <!-- barra de busqueda -->
                                 <form>
-                                    <input type="search" name="buscar" placeholder="Buscar..">
+                                    <input type="search" name="buscar" placeholder="&#xF002; Buscar">
                                     <!--    <input type="button" class="btn btn-rp" value="Ir"> -->
                                 </form>
                                 <!-- fin de la barra de busqueda -->

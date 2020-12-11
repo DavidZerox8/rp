@@ -386,7 +386,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="col-gd-2 col-sm-3 col-xs-12">
                         <div class="single-team-member">
                             <div class="team-img">
                                 <a href="#">
@@ -419,7 +419,7 @@
                         </div>
                     </div>
                     <!-- fin de columna -->
-                    <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="col-gd-2 col-sm-3 col-xs-12">
                         <div class="single-team-member">
                             <div class="team-img">
                                 <a href="#">
@@ -452,7 +452,7 @@
                         </div>
                     </div>
                     <!-- fin de columna -->
-                    <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="col-gd-2 col-sm-3 col-xs-12">
                         <div class="single-team-member">
                             <div class="team-img">
                                 <a href="#">
@@ -485,7 +485,7 @@
                         </div>
                     </div>
                     <!-- fin de columna -->
-                    <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="col-gd-2 col-sm-3 col-xs-12">
                         <div class="single-team-member">
                             <div class="team-img">
                                 <a href="#">
@@ -517,8 +517,58 @@
                             </div>
                         </div>
                     </div>
+                    
+                    
+                    
                     <!-- fin de comlumna -->
                 </div>
+                <!-- Injcio segunda columna -->
+                <div class="row">
+                  
+                   <div class="col-md-4 col-sm-4 col-xs-12">
+                        
+                    </div>
+                    
+                    <div class="col-sm-3 col-sm-4 col-xs-12">
+                        <div class="single-team-member">
+                            <div class="team-img">
+                                <a href="#">
+                                    <img src="assets/img/team/5.jpg" alt="">
+                                </a>
+                                <div class="team-social-icon text-center">
+                                    <ul>
+                                        <li>
+                                            <a>
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-content text-center">
+                                <h4>Lic. Ericka Monroy</h4>
+                                <p>Coordinadora de Proyectos Aspel</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        
+                    </div>
+                    
+                </div>
+                
+                <!-- Fin de la segunda columna -->
             </div>
         </div><!-- Fin seccion equipo -->
 
@@ -557,13 +607,13 @@
                                     <a href="#" class="active" data-filter="*">Todo</a>
                                 </li>
                                 <li>
-                                    <a href="#" data-filter=".development">Capacitaci&oacute;n</a>
+                                    <a href="#" data-filter=".capacitacion">Capacitaci&oacute;n</a>
                                 </li>
                                 <li>
-                                    <a href="#" data-filter=".design">Software</a>
+                                    <a href="#" data-filter=".software">Software</a>
                                 </li>
                                 <li>
-                                    <a href="#" data-filter=".photo">Redes</a>
+                                    <a href="#" data-filter=".redes">Redes</a>
                                 </li>
                             </ul>
                         </div>
@@ -640,7 +690,7 @@
                     </div>
                     <!-- fin single-awesome-project  -->
                     <!-- inicio single-awesome-project  -->
-                    <div class="col-md-4 col-sm-4 col-xs-12 development">
+                    <div class="col-md-4 col-sm-4 col-xs-12 capacitacion">
                         <div class="single-awesome-project">
                             <div class="awesome-img">
                                 <a href="#"><img src="assets/img/portfolio/5.jpg" alt="" /></a>

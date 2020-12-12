@@ -108,11 +108,11 @@
               <div class="slider-content">
                 <!-- layer 1 -->
                 <div class="layer-1-1 hidden-xs wow animate__slideInDown animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h2 class="title1">Conocenos.</h2>
+                  <h2 class="title1">¡Conocenos!</h2>
                 </div>
                 <!-- layer 2 -->
                 <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h1 class="title2">Estamos a tus ordenes para mejorar tu negocio.</h1>
+                  <h1 class="title2">Estamos a tus ordenes para mejorar tu negocio</h1>
                 </div>
                 <!-- layer 3 -->
                 <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
@@ -137,7 +137,7 @@
                 </div>
                 <!-- layer 2 -->
                 <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".1s">
-                  <h1 class="title2">Contamos con modalidades para todo tipo de ambiente.</h1>
+                  <h1 class="title2">Contamos con modalidades para todo tipo de ambiente</h1>
                 </div>
                 <!-- layer 3 -->
                 <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
@@ -161,7 +161,7 @@
                 </div>
                 <!-- layer 2 -->
                 <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".1s">
-                  <h1 class="title2">Contamos con el software que necesitas.</h1>
+                  <h1 class="title2">Contamos con el software que necesitas</h1>
                 </div>
                 <!-- layer 3 -->
                 <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">

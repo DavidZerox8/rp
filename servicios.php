@@ -60,7 +60,6 @@
         }
 
     </style>
-
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">
@@ -136,7 +135,7 @@
         <div class="blog-page area-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <div class="page-head-blog">
                             <div class="single-blog-page">
 
@@ -148,26 +147,26 @@
                                 <!-- fin de la barra de busqueda -->
                             </div>
                             <br>
-                            
+
                             <div class="single-blog-page">
-                              <div class="left-blog" style="background: white;">  
-                                <ul id="myUL" style="display: none;">
-                                <li>
-                                    <a href="index.php">Inicio</a>
-                                </li>
-                                <li>
-                                    <a href="about.html">Nosotros</a>
-                                </li>
-                                <li>
-                                    <a href="services.html">Servicios</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html">Contacto</a>
-                                </li>
-                            </ul>
-                             </div>   
+                                <div class="left-blog" style="background: white;">
+                                    <ul id="myUL" style="display: none;">
+                                        <li>
+                                            <a href="index.php">Inicio</a>
+                                        </li>
+                                        <li>
+                                            <a href="about.html">Nosotros</a>
+                                        </li>
+                                        <li>
+                                            <a href="services.html">Servicios</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contacto</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            
+
                             <!-- Barra laterial de secciones -->
                             <div class="single-blog-page">
                                 <div class="left-blog">
@@ -214,7 +213,7 @@
                     </div>
                     <!-- fin de barra lateral -->
                     <!-- inicio de seccion del blog -->
-                    <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="col-md-9 col-sm-9 col-xs-12">
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <!-- inicio seccion -->
@@ -223,23 +222,7 @@
                                         <img src="assets/img/blog/6.jpg" alt="" />
                                     </div>
                                     <div class="post-information">
-                                        <h2>Blog image post layout</h2>
-                                        <div class="entry-meta">
-                                            <span class="author-meta"><i class="fa fa-user"></i> <a href="#">admin</a></span>
-                                            <span><i class="fa fa-clock-o"></i> march 28, 2016</span>
-                                            <span class="tag-meta">
-                                                <i class="fa fa-folder-o"></i>
-                                                <a href="#">painting</a>,
-                                                <a href="#">work</a>
-                                            </span>
-                                            <span>
-                                                <i class="fa fa-tags"></i>
-                                                <a href="#">tools</a>,
-                                                <a href="#"> Humer</a>,
-                                                <a href="#">House</a>
-                                            </span>
-                                            <span><i class="fa fa-comments-o"></i> <a href="#">6 comments</a></span>
-                                        </div>
+                                        <h2 style="color:#3EC1D5">Asesor&iacute;a ASPEL</h2>
                                         <div class="entry-content">
                                             <p style="text-align: justify; text-justify: inter-word;">Aliquam et metus pharetra, bibendum massa nec, fermentum odio. Nunc id leo ultrices, mollis ligula in, finibus tortor. Mauris eu dui ut lectus fermentum eleifend. Pellentesque faucibus sem ante, non malesuada odio varius nec. Suspendisse
                                                 potenti. Proin consectetur aliquam odio nec fringilla. Sed interdum at justo in efficitur. Vivamus gravida volutpat sodales. Fusce ornare sit amet ligula condimentum sagittis.</p>
@@ -251,29 +234,93 @@
                                                 Curabitur lobortis, elit ut elementum congue, erat ex bibendum odio, nec iaculis lacus sem non lorem. Duis suscipit metus ante, sed convallis quam posuere quis. Ut tincidunt eleifend odio, ac fringilla mi vehicula nec. Nunc vitae
                                                 lacus eget lectus imperdiet tempus sed in dui. Nam molestie magna at risus consectetur, placerat suscipit justo dignissim. Sed vitae fringilla enim, nec ullamcorper arcu.</p>
                                         </div>
+
+                                        <!-- ======= seccion polizas ======= -->
+                                        <div id="pricing" class="pricing-area area-padding" style="background: #F9F9F9 !important;">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                                        <div class="section-headline text-center">
+                                                            <h2>Polizas</h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-4 col-sm-4 col-xs-12">
+                                                        <div class="pri_table_list">
+                                                            <h3>b&aacute;sico <br /> <span>$1600 / mes</span></h3>
+                                                            <ol>
+                                                                <li class="check">Sistema Online</li>
+                                                                <li class="check cross">Acceso completo</li>
+                                                                <li class="check">App m&oacute;vil</li>
+                                                                <li class="check">Multiples plataformas</li>
+                                                                <li class="check cross">Capacitaci&oacute;n</li>
+                                                                <li class="check cross">Soporte 24/7</li>
+                                                                <li class="check">Transacciones en lineas</li>
+                                                                <li class="check cross">Asesoria</li>
+                                                            </ol>
+                                                            <button>Solicitar ahora</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-12">
+                                                        <div class="pri_table_list active">
+                                                            <span class="saleon">Oferta</span>
+                                                            <h3>Essentials <br /> <span>$3000 / mes</span></h3>
+                                                            <ol>
+                                                                <li class="check">Sistema Online</li>
+                                                                <li class="check">Acceso completo</li>
+                                                                <li class="check">App m&oacute;vil</li>
+                                                                <li class="check">Multiples plataformas</li>
+                                                                <li class="check cross">Capacitaci&oacute;n</li>
+                                                                <li class="check">Soporte 24/7</li>
+                                                                <li class="check">Transacciones en lineas</li>
+                                                                <li class="check cross">Asesoria</li>
+                                                            </ol>
+                                                            <button>Solicitar ahora</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-4 col-xs-12">
+                                                        <div class="pri_table_list">
+                                                            <h3>premium <br /> <span>$4200 / mes</span></h3>
+                                                            <ol>
+                                                                <li class="check">Sistema Online</li>
+                                                                <li class="check">Acceso completo</li>
+                                                                <li class="check">App m&oacute;vil</li>
+                                                                <li class="check">Multiples plataformas</li>
+                                                                <li class="check">Capacitaci&oacute;n</li>
+                                                                <li class="check">Soporte 24/7</li>
+                                                                <li class="check">Transacciones en lineas</li>
+                                                                <li class="check">Asesoria</li>
+                                                            </ol>
+                                                            <button>Solicitar ahora</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- fin polizas -->
                                     </div>
                                 </article>
-                                <div class="single-post-comments">                                    
+                                <div class="single-post-comments">
                                     <div class="comment-respond">
-                                        <h3 class="comment-reply-title">¿Interesado el agun servicio?</h3>
-                                        <span class="email-notes">Llene el siguiente formulario y a la brevedad nos estaremos poniendo en contacto con usted. *</span>
+                                        <h3 class="comment-reply-title">¿Interesado el algun servicio?</h3>
+                                        <span class="email-notes">Llene el siguiente formulario y a la brevedad nos pondremos en contacto con usted. *</span>
                                         <form action="#">
                                             <div class="row">
                                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                                    <p>Name *</p>
-                                                    <input type="text" />
+                                                    <p>Nombre *</p>
+                                                    <input type="text" required />
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                                    <p>Email *</p>
-                                                    <input type="email" />
+                                                    <p>Correo *</p>
+                                                    <input type="email" required />
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                                    <p>Website</p>
-                                                    <input type="text" />
+                                                    <p>Asunto *</p>
+                                                    <input type="text" required />
                                                 </div>
                                                 <div class="col-lg-12 col-md-12 col-sm-12 comment-form-comment">
-                                                    <p>Website</p>
-                                                    <textarea id="message-box" cols="30" rows="10"></textarea>
+                                                    <p>Mensaje *</p>
+                                                    <textarea id="message-box" cols="30" rows="10" required></textarea>
                                                     <input type="submit" value="Post Comment" />
                                                 </div>
                                             </div>
@@ -326,7 +373,6 @@
 
     </main><!-- fin del #main -->
 
-    <!-- ======= pie de pagina ======= -->
     <footer>
         <div class="footer-area">
             <div class="container">
@@ -378,12 +424,12 @@
                             <div class="footer-head">
                                 <h4>Instagram</h4>
                                 <div class="flicker-img">
-                                    <a href="#"><img src="assets/img/portfolio/1.jpg" alt=""></a>
-                                    <a href="#"><img src="assets/img/portfolio/2.jpg" alt=""></a>
-                                    <a href="#"><img src="assets/img/portfolio/3.jpg" alt=""></a>
-                                    <a href="#"><img src="assets/img/portfolio/4.jpg" alt=""></a>
-                                    <a href="#"><img src="assets/img/portfolio/5.jpg" alt=""></a>
-                                    <a href="#"><img src="assets/img/portfolio/6.jpg" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/capac/1.JPG" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/capac/2.JPG" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/capac/3.JPG" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/capac/4.JPG" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/capac/5.JPG" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/capac/6.JPG" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -425,7 +471,7 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-    
+
     <!-- Funcion para buscar dentro del sitio -->
     <script>
         function myFunction() {

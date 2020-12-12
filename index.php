@@ -174,7 +174,7 @@
         </div>
       </div>
     </div>
-  </div><!-- End Slider -->
+  </div><!-- fin del Slider -->
     <main id="main">
 
         <!-- ======= Seccion nosotros ======= -->
@@ -1155,12 +1155,12 @@
                             <div class="footer-head">
                                 <h4>Instagram</h4>
                                 <div class="flicker-img">
-                                    <a href="#"><img src="assets/img/portfolio/1.jpg" alt=""></a>
-                                    <a href="#"><img src="assets/img/portfolio/2.jpg" alt=""></a>
-                                    <a href="#"><img src="assets/img/portfolio/3.jpg" alt=""></a>
-                                    <a href="#"><img src="assets/img/portfolio/4.jpg" alt=""></a>
-                                    <a href="#"><img src="assets/img/portfolio/5.jpg" alt=""></a>
-                                    <a href="#"><img src="assets/img/portfolio/6.jpg" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/capac/1.JPG" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/capac/2.JPG" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/capac/3.JPG" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/capac/4.JPG" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/capac/5.JPG" alt=""></a>
+                                    <a href="#"><img src="assets/img/portfolio/capac/6.JPG" alt=""></a>
                                 </div>
                             </div>
                         </div>

@@ -91,91 +91,90 @@
         </div>
     </header><!-- Fin encabezado -->
 
-    <!-- ======= Sección del Slider ======= -->
-    <div id="home" class="slider-area">
-        <div class="bend niceties preview-2">
-            <div id="ensign-nivoslider" class="slides">
-                <img src="assets/img/slider/slider1.jpg" alt="" title="#slider-direction-1" />
-                <img src="assets/img/slider/slider2.jpg" alt="" title="#slider-direction-2" />
-                <img src="assets/img/slider/slider3.jpg" alt="" title="#slider-direction-3" />
-            </div>
+   <!-- ======= Slider ======= -->
+  <div id="home" class="slider-area">
+    <div class="bend niceties preview-2">
+      <div id="ensign-nivoslider" class="slides">
+        <img src="assets/img/slider/slider1.jpg" alt="" title="#slider-direction-1" />
+        <img src="assets/img/slider/slider2.jpg" alt="" title="#slider-direction-2" />
+        <img src="assets/img/slider/slider3.jpg" alt="" title="#slider-direction-3" />
+      </div>
 
-            <!-- Slider 1 -->
-            <div id="slider-direction-1" class="slider-direction slider-one">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="slider-content">
-                                <!-- linea 1 -->
-                                <div class="layer-1-1 hidden-xs wow animate__slideInDown animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                                    <h2 class="title1">Conocenos.</h2>
-                                </div>
-                                <!-- linea 2 -->
-                                <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                                    <h1 class="title2">Estamos a tus ordenes para mejorar tu negocio.</h1>
-                                </div>
-                                <!-- linea 3 -->
-                                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                                    <a class="ready-btn right-btn page-scroll" href="#services">Ver Servicios</a>
-                                    <a class="ready-btn page-scroll" href="#about">&#43; informaci&oacute;n</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <!-- slider 1 -->
+      <div id="slider-direction-1" class="slider-direction slider-one">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow animate__slideInDown animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">Conocenos.</h2>
                 </div>
-            </div>
-
-            <!-- Slider 2 -->
-            <div id="slider-direction-2" class="slider-direction slider-two">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="slider-content text-center">
-                                <!-- linea 1 -->
-                                <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                                    <h2 class="title1">¿Buscas capacitaci&oacute;n?</h2>
-                                </div>
-                                <!-- linea 2 -->
-                                <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".1s">
-                                    <h1 class="title2">Contamos con modalidades para todo tipo de ambiente.</h1>
-                                </div>
-                                <!-- linea 3 -->
-                                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                                    <a class="ready-btn right-btn page-scroll" href="#services">Consultar modalidades</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h1 class="title2">Estamos a tus ordenes para mejorar tu negocio.</h1>
                 </div>
-            </div>
-
-            <!-- Slider 3 -->
-            <div id="slider-direction-3" class="slider-direction slider-two">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="slider-content">
-                                <!-- linea 1 -->
-                                <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                                    <h2 class="title1">¿Buscar agilizar tus procesos?</h2>
-                                </div>
-                                <!-- linea 2 -->
-                                <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".1s">
-                                    <h1 class="title2">Contamos con el software que necesitas.</h1>
-                                </div>
-                                <!-- linea 3 -->
-                                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                                    <a class="ready-btn right-btn page-scroll" href="#services">Ver Software</a>
-                                    <a class="ready-btn page-scroll" href="#about">M&aacute;s información</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="#services">Ver Servicios</a>
+                  <a class="ready-btn page-scroll" href="#about">M&aacute;s informaci&oacute;n</a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div><!-- fin Slider -->
+      </div>
 
+      <!-- Slider 2 -->
+      <div id="slider-direction-2" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content text-center">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">¿Buscas capacitaci&oacute;n?</h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">Contamos con modalidades para todo tipo de ambiente.</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="#services">Consultar modalidades</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- slider 3 -->
+      <div id="slider-direction-3" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">¿Buscar agilizar tus procesos?</h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">Contamos con el software que necesitas.</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="#services">Ver software</a>
+                  <a class="ready-btn page-scroll" href="#about">M&aacute;s informaci&oacute;n</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- End Slider -->
     <main id="main">
 
         <!-- ======= Seccion nosotros ======= -->

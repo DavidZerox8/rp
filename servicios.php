@@ -77,7 +77,7 @@
 
             <nav id="nav" class="nav-menu d-none d-lg-block">
                 <ul>
-                    <li><a href="index.php#about">Inicio</a></li>
+                    <li><a href="index.php">Inicio</a></li>
                     <li><a href="index.php#about">Nosotros</a></li>
                     <li class="active"><a href="index.php#services">Servicios</a></li>
                     <li><a href="index.php#team">Equipo</a></li>
@@ -150,7 +150,7 @@
                             <br>
                             
                             <div class="single-blog-page">
-                                
+                              <div class="left-blog" style="background: white;">  
                                 <ul id="myUL" style="display: none;">
                                 <li>
                                     <a href="index.php">Inicio</a>
@@ -164,53 +164,8 @@
                                 <li>
                                     <a href="contact.html">Contacto</a>
                                 </li>
-                                <li>
-                                    Portfolio
-                                    <ul>
-                                        <li>
-                                            <a href="portfolio-1-col.html">Portafolio 1</a>
-                                        </li>
-                                        <li>
-                                            <a href="portfolio-2-col.html">Portafolio 2</a>
-                                        </li>
-                                        <li>
-                                            <a href="portfolio-3-col.html">Portafolio 3</a>
-                                        </li>
-                                        <li>
-                                            <a href="portfolio-4-col.html">Portafolio 4</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    Blog
-                                    <ul>
-                                        <li>
-                                            <a href="blog-home-1.html">Blog 1</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-home-2.html">Blog 2</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-post.html">Blog Post</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    Otras paginas
-                                    <ul>
-                                        <li>
-                                            <a href="sidebar.html">Barra lateral</a>
-                                        </li>
-                                        <li>
-                                            <a href="faq.html">FAQ</a>
-                                        </li>
-                                        <li>
-                                            <a href="pricing-table.html">Tabla de precios</a>
-                                        </li>
-                                    </ul>
-                                </li>
                             </ul>
-                                
+                             </div>   
                             </div>
                             
                             <!-- Barra laterial de secciones -->
@@ -286,80 +241,22 @@
                                             <span><i class="fa fa-comments-o"></i> <a href="#">6 comments</a></span>
                                         </div>
                                         <div class="entry-content">
-                                            <p>Aliquam et metus pharetra, bibendum massa nec, fermentum odio. Nunc id leo ultrices, mollis ligula in, finibus tortor. Mauris eu dui ut lectus fermentum eleifend. Pellentesque faucibus sem ante, non malesuada odio varius nec. Suspendisse
+                                            <p style="text-align: justify; text-justify: inter-word;">Aliquam et metus pharetra, bibendum massa nec, fermentum odio. Nunc id leo ultrices, mollis ligula in, finibus tortor. Mauris eu dui ut lectus fermentum eleifend. Pellentesque faucibus sem ante, non malesuada odio varius nec. Suspendisse
                                                 potenti. Proin consectetur aliquam odio nec fringilla. Sed interdum at justo in efficitur. Vivamus gravida volutpat sodales. Fusce ornare sit amet ligula condimentum sagittis.</p>
                                             <blockquote>
                                                 <p>Quisque semper nunc vitae erat pellentesque, ac placerat arcu consectetur. In venenatis elit ac ultrices convallis. Duis est nisi, tincidunt ac urna sed, cursus blandit lectus. In ullamcorper sit amet ligula ut eleifend. Proin dictum
                                                     tempor ligula, ac feugiat metus. Sed finibus tortor eu scelerisque scelerisque.</p>
                                             </blockquote>
-                                            <p>Aenean et tempor eros, vitae sollicitudin velit. Etiam varius enim nec quam tempor, sed efficitur ex ultrices. Phasellus pretium est vel dui vestibulum condimentum. Aenean nec suscipit nibh. Phasellus nec lacus id arcu facilisis elementum.
+                                            <p style="text-align: justify; text-justify: inter-word;">Aenean et tempor eros, vitae sollicitudin velit. Etiam varius enim nec quam tempor, sed efficitur ex ultrices. Phasellus pretium est vel dui vestibulum condimentum. Aenean nec suscipit nibh. Phasellus nec lacus id arcu facilisis elementum.
                                                 Curabitur lobortis, elit ut elementum congue, erat ex bibendum odio, nec iaculis lacus sem non lorem. Duis suscipit metus ante, sed convallis quam posuere quis. Ut tincidunt eleifend odio, ac fringilla mi vehicula nec. Nunc vitae
                                                 lacus eget lectus imperdiet tempus sed in dui. Nam molestie magna at risus consectetur, placerat suscipit justo dignissim. Sed vitae fringilla enim, nec ullamcorper arcu.</p>
                                         </div>
                                     </div>
                                 </article>
-                                <div class="clear"></div>
-                                <div class="single-post-comments">
-                                    <div class="comments-area">
-                                        <div class="comments-heading">
-                                            <h3>6 comments</h3>
-                                        </div>
-                                        <div class="comments-list">
-                                            <ul>
-                                                <li class="threaded-comments">
-                                                    <div class="comments-details">
-                                                        <div class="comments-list-img">
-                                                            <img src="assets/img/blog/b02.jpg" alt="post-author">
-                                                        </div>
-                                                        <div class="comments-content-wrap">
-                                                            <span>
-                                                                <b><a href="#">demo</a></b>
-                                                                Post author
-                                                                <span class="post-time">October 6, 2014 at 4:25 pm</span>
-                                                                <a href="#">Reply</a>
-                                                            </span>
-                                                            <p>Quisque semper nunc vitae erat pellentesque, ac placerat arcu consectetur</p>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="comments-details">
-                                                        <div class="comments-list-img">
-                                                            <img src="assets/img/blog/b02.jpg" alt="post-author">
-                                                        </div>
-                                                        <div class="comments-content-wrap">
-                                                            <span>
-                                                                <b><a href="#">admin</a></b>
-                                                                Post author
-                                                                <span class="post-time">October 6, 2014 at 6:18 pm </span>
-                                                                <a href="#">Reply</a>
-                                                            </span>
-                                                            <p>Quisque orci nibh, porta vitae sagittis sit amet, vehicula vel mauris. Aenean at justo dolor. Fusce ac sapien bibendum, scelerisque libero nec</p>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="threaded-comments">
-                                                    <div class="comments-details">
-                                                        <div class="comments-list-img">
-                                                            <img src="assets/img/blog/b02.jpg" alt="post-author">
-                                                        </div>
-                                                        <div class="comments-content-wrap">
-                                                            <span>
-                                                                <b><a href="#">demo</a></b>
-                                                                Post author
-                                                                <span class="post-time">October 6, 2014 at 7:25 pm</span>
-                                                                <a href="#">Reply</a>
-                                                            </span>
-                                                            <p>Quisque semper nunc vitae erat pellentesque, ac placerat arcu consectetur</p>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                <div class="single-post-comments">                                    
                                     <div class="comment-respond">
                                         <h3 class="comment-reply-title">¿Interesado el agun servicio?</h3>
-                                        <span class="email-notes">Your email address will not be published. Required fields are marked *</span>
+                                        <span class="email-notes">Llene el siguiente formulario y a la brevedad nos estaremos poniendo en contacto con usted. *</span>
                                         <form action="#">
                                             <div class="row">
                                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">

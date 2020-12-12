@@ -77,11 +77,11 @@
 
             <nav id="nav" class="nav-menu d-none d-lg-block">
                 <ul>
-                    <li class="active"><a href="index.php">Inicio</a></li>
-                    <li><a href="#about">Nosotros</a></li>
-                    <li><a href="#services">Servicios</a></li>
-                    <li><a href="#team">Equipo</a></li>
-                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="index.php#about">Inicio</a></li>
+                    <li><a href="index.php#about">Nosotros</a></li>
+                    <li class="active"><a href="index.php#services">Servicios</a></li>
+                    <li><a href="index.php#team">Equipo</a></li>
+                    <li><a href="index.php#contact">Contacto</a></li>
 
                     <li>
                         <!-- Menu desplegable -->

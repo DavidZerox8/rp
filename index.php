@@ -187,14 +187,14 @@
                             <h2>¿Qui&eacute;nes Somos?</h2>
                             <table border="0" width="100%">
                                 <td style="text-align: center;">
-                                    <div class="services-details">
-                                        <h4 style="cursor: pointer;" class="info_b page-scroll" data-toggle="modal" data-target="#vision">Visi&oacute;n</h4>
+                                    <div class="services-details">                                        
+                                        <h4 id="btn_vision" style="cursor: pointer;" class="info_b page-scroll" data-toggle="modal" data-target="#vision" onmouseover="mostrar1();">Visi&oacute;n</h4>
                                     </div>
                                 </td>
 
                                 <td style="text-align: center;">
                                     <div class="services-details">
-                                        <h4 style="cursor: pointer;" class="info_b  page-scroll" data-toggle="modal" data-target="#mision">Misi&oacute;n</h4>
+                                        <h4 id="btn_mision" style="cursor: pointer;" class="info_b  page-scroll" data-toggle="modal" data-target="#mision" onmouseover="mostrar2();">Misi&oacute;n</h4>
                                     </div>
                                 </td>
                             </table>
@@ -1043,7 +1043,7 @@
 
         <!-- Modal de mision -->
 
-        <div class="modal fade" id="vision">
+        <div class="modal fade" id="vision" name="vision">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
 
@@ -1202,6 +1202,23 @@
 
     <!-- Js Principal de la página -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+        function mostrar1() {
+            $('#vision').modal('show');
+        }
+
+        function mostrar2() {
+            $('#mision').modal('show');
+        }
+
+        $('#element').tooltip('show')
+
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+
+    </script>
 
 </body>
 

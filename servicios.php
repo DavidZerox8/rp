@@ -142,12 +142,77 @@
 
                                 <!-- barra de busqueda -->
                                 <form>
-                                    <input type="search" name="buscar" placeholder="&#xF002; Buscar">
+                                    <input type="search" name="buscar" placeholder="&#xF002; Buscar" id="myInput" onkeyup="myFunction()">
                                     <!--    <input type="button" class="btn btn-rp" value="Ir"> -->
                                 </form>
                                 <!-- fin de la barra de busqueda -->
                             </div>
                             <br>
+                            
+                            <div class="single-blog-page">
+                                
+                                <ul id="myUL" style="display: none;">
+                                <li>
+                                    <a href="index.php">Inicio</a>
+                                </li>
+                                <li>
+                                    <a href="about.html">Nosotros</a>
+                                </li>
+                                <li>
+                                    <a href="services.html">Servicios</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contacto</a>
+                                </li>
+                                <li>
+                                    Portfolio
+                                    <ul>
+                                        <li>
+                                            <a href="portfolio-1-col.html">Portafolio 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="portfolio-2-col.html">Portafolio 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="portfolio-3-col.html">Portafolio 3</a>
+                                        </li>
+                                        <li>
+                                            <a href="portfolio-4-col.html">Portafolio 4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Blog
+                                    <ul>
+                                        <li>
+                                            <a href="blog-home-1.html">Blog 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="blog-home-2.html">Blog 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="blog-post.html">Blog Post</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Otras paginas
+                                    <ul>
+                                        <li>
+                                            <a href="sidebar.html">Barra lateral</a>
+                                        </li>
+                                        <li>
+                                            <a href="faq.html">FAQ</a>
+                                        </li>
+                                        <li>
+                                            <a href="pricing-table.html">Tabla de precios</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                                
+                            </div>
+                            
                             <!-- Barra laterial de secciones -->
                             <div class="single-blog-page">
                                 <div class="left-blog">
@@ -463,6 +528,30 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    
+    <!-- Funcion para buscar dentro del sitio -->
+    <script>
+        function myFunction() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            document.getElementById("myUL").style.display = "block";
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                    /*document.getElementById("alerta").innerHTML = "No se encontraron resultados";*/
+                }
+            }
+        }
+
+    </script>
+    <!-- Fin de la funcion de buscar -->
 
 </body>
 

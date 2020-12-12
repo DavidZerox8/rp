@@ -188,13 +188,13 @@
                             <table border="0" width="100%">
                                 <td style="text-align: center;">
                                     <div class="services-details">
-                                        <h4 style="cursor: pointer;" class="iniciar-sesion page-scroll" data-toggle="modal" data-target="#vision">Visi&oacute;n</h4>
+                                        <h4 style="cursor: pointer;" class="info_b page-scroll" data-toggle="modal" data-target="#vision">Visi&oacute;n</h4>
                                     </div>
                                 </td>
 
                                 <td style="text-align: center;">
                                     <div class="services-details">
-                                        <h4 style="cursor: pointer;" class="iniciar-sesion  page-scroll" data-toggle="modal" data-target="#mision">Misi&oacute;n</h4>
+                                        <h4 style="cursor: pointer;" class="info_b  page-scroll" data-toggle="modal" data-target="#mision">Misi&oacute;n</h4>
                                     </div>
                                 </td>
                             </table>
@@ -274,7 +274,7 @@
                                     <a class="services-icon" href="#">
                                         <i class="fa fa-edit"></i>
                                     </a>
-                                    <h4>Asesoria "Aspel"</h4>
+                                    <h4 style="color:#3EC1D5">Asesoria "Aspel"</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque velit dicta, delectus incidunt porro officiis fugiat, dolore explicabo. Dolor ipsum dolore debitis, culpa dolorem libero maxime, incidunt mollitia adipisci tenetur.
                                     </p>
@@ -290,7 +290,7 @@
                                     <a class="services-icon" href="#">
                                         <i class="fa fa-users"></i>
                                     </a>
-                                    <h4>Polizas Presenciales</h4>
+                                    <h4 style="color:#3EC1D5">Polizas Presenciales</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                                     </p>
@@ -301,13 +301,13 @@
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <!-- fin col-md-4 -->
-                        <div class=" about-move">
+                        <div class="about-move">
                             <div class="services-details">
                                 <div class="single-services">
                                     <a class="services-icon" href="#">
                                         <i class="fa fa-file-word-o"></i>
                                     </a>
-                                    <h4>Creaci&oacute;n de Formatos</h4>
+                                    <h4 style="color:#3EC1D5">Creaci&oacute;n de Formatos</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                                     </p>
@@ -319,13 +319,13 @@
                     <!-- Fin de las priemras 3 columnas -->
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <!-- fin col-md-4 -->
-                        <div class=" about-move">
+                        <div class="about-move">
                             <div class="services-details">
                                 <div class="single-services">
                                     <a class="services-icon" href="#">
                                         <i class="fa fa-gears"></i>
                                     </a>
-                                    <h4>Capacitaci&oacute;n</h4>
+                                    <h4 style="color:#3EC1D5">Capacitaci&oacute;n</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                                     </p>
@@ -337,13 +337,13 @@
                     <!-- fin Left services -->
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <!-- end col-md-4 -->
-                        <div class=" about-move">
+                        <div class="about-move">
                             <div class="services-details">
                                 <div class="single-services">
                                     <a class="services-icon" href="#">
                                         <i class="fa fa-desktop"></i>
                                     </a>
-                                    <h4>Instalación de Software</h4>
+                                    <h4 style="color:#3EC1D5">Instalación de Software</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                                     </p>
@@ -355,13 +355,13 @@
                     <!-- fin Left services -->
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <!-- end col-md-4 -->
-                        <div class=" about-move">
+                        <div class="about-move">
                             <div class="services-details">
                                 <div class="single-services">
                                     <a class="services-icon" href="#">
                                         <i class="fa fa-code"></i>
                                     </a>
-                                    <h4>Desarrollo Web</h4>
+                                    <h4 style="color:#3EC1D5">Desarrollo Web</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                                     </p>
@@ -385,6 +385,57 @@
                         </div>
                     </div>
                 </div>
+
+
+
+                <!-- Injcio segunda columna -->
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+
+                    </div>
+
+                    <div class="col-sm-3 col-sm-4 col-xs-12">
+                        <div class="single-team-member">
+                            <div class="team-img">
+                                <a href="#">
+                                    <img src="assets/img/team/5.jpg" alt="">
+                                </a>
+                                <div class="team-social-icon text-center">
+                                    <ul>
+                                        <li>
+                                            <a>
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-content text-center">
+                                <h4>Lic. Ericka Monroy</h4>
+                                <p>Coordinadora de Proyectos Aspel</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+
+                    </div>
+
+                </div>
+
+                <!-- Fin de la segunda columna -->
+
                 <div class="row">
                     <div class="col-gd-2 col-sm-3 col-xs-12">
                         <div class="single-team-member">
@@ -423,7 +474,7 @@
                         <div class="single-team-member">
                             <div class="team-img">
                                 <a href="#">
-                                    <img src="assets/img/team/2.jpg" alt="">
+                                    <img src="assets/img/team/6.jpg" alt="">
                                 </a>
                                 <div class="team-social-icon text-center">
                                     <ul>
@@ -446,8 +497,8 @@
                                 </div>
                             </div>
                             <div class="team-content text-center">
-                                <h4>Lic. Ericka Monroy</h4>
-                                <p>Coordinadora de Proyectos Aspel</p>
+                                <h4>Lileana Blanco</h4>
+                                <p>Coordinadora de Ventas</p>
                             </div>
                         </div>
                     </div>
@@ -517,58 +568,10 @@
                             </div>
                         </div>
                     </div>
-                    
-                    
-                    
+
                     <!-- fin de comlumna -->
                 </div>
-                <!-- Injcio segunda columna -->
-                <div class="row">
-                  
-                   <div class="col-md-4 col-sm-4 col-xs-12">
-                        
-                    </div>
-                    
-                    <div class="col-sm-3 col-sm-4 col-xs-12">
-                        <div class="single-team-member">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="assets/img/team/5.jpg" alt="">
-                                </a>
-                                <div class="team-social-icon text-center">
-                                    <ul>
-                                        <li>
-                                            <a>
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a>
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a>
-                                                <i class="fa fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="team-content text-center">
-                                <h4>Lic. Ericka Monroy</h4>
-                                <p>Coordinadora de Proyectos Aspel</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        
-                    </div>
-                    
-                </div>
-                
-                <!-- Fin de la segunda columna -->
+
             </div>
         </div><!-- Fin seccion equipo -->
 
@@ -576,13 +579,15 @@
         <div class="reviews-area">
             <div class="row no-gutters">
                 <div class="col-lg-6 py-0">
-                   
+
                 </div>
                 <div class="col-lg-6 work-right-text d-flex align-items-center">
                     <div class="px-5 py-5 py-lg-0">
+                        <br>
                         <h2>¿Interesado?</h2>
                         <h5 style="text-align: justify; text-justify: inter-word;">Contamos con un equipo de trabajo de alto calibre que puede ayudarte a alcanzar el nivel que deseas .</h5>
                         <a href="#contact" class="ready-btn scrollto">Obten una cotizaci&oacute;n</a>
+                        <br> <br>
                     </div>
                 </div>
             </div>
@@ -638,7 +643,7 @@
                         </div>
                     </div>
                     <!-- fin single-awesome-project  -->
-                    
+
                     <!-- inicio single-awesome-project -->
                     <div class="col-md-4 col-sm-4 col-xs-12 capacitacion">
                         <div class="single-awesome-project">
@@ -999,103 +1004,103 @@
                 </div>
             </div>
         </div><!-- fin seccion contacto-->
-        
+
         <!-- Modal Login -->
-    <div class="modal fade" id="Modal" style="position: fixed !important; z-index: 10000;">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+        <div class="modal fade" id="Modal" style="position: fixed !important; z-index: 10000;">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Iniciar Sesi&oacute;n</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Iniciar Sesi&oacute;n</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <form action="controller/loginController.php" method="post">
+                            <div class="form-group">
+                                <label for="email">Usuario:</label>
+                                <input name="usuario_l" type="text" class="form-control" placeholder="Ingrese su correo" id="usuario_l">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Contrase&ntilde;a:</label>
+                                <input name="clave_l" type="password" class="form-control" placeholder="Escriba su contraseña" id="clave_l">
+                            </div>
+
+                            <button name="login" type="submit" class="btn btn-success" style="background-color: #3ec1d5; border-color: #3ec1d5;">Acceder</button>
+                        </form>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
+
                 </div>
-
-                <!-- Modal body -->
-                <div class="modal-body">
-                    <form action="controller/loginController.php" method="post">
-                        <div class="form-group">
-                            <label for="email">Usuario:</label>
-                            <input name="usuario_l" type="text" class="form-control" placeholder="Ingrese su correo" id="usuario_l">
-                        </div>
-                        <div class="form-group">
-                            <label for="pwd">Contrase&ntilde;a:</label>
-                            <input name="clave_l" type="password" class="form-control" placeholder="Escriba su contraseña" id="clave_l">
-                        </div>
-
-                        <button name="login" type="submit" class="btn btn-success" style="background-color: #3ec1d5; border-color: #3ec1d5;">Acceder</button>
-                    </form>
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-                </div>
-
             </div>
         </div>
-    </div>
 
-    <!-- Modal de mision -->
+        <!-- Modal de mision -->
 
-    <div class="modal fade" id="vision">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+        <div class="modal fade" id="vision">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Nuestra visi&oacute;n</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Nuestra visi&oacute;n</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p style="text-align: justify; text-justify: inter-word;">Ser una empresa referente con soluciones
+                            tecnol&oacute;gicas para implementar procesos
+                            exitosos acorde a las necesidades de nuestros
+                            cliente y un servicio basado en la empatía.
+                        </p>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+
                 </div>
-
-                <!-- Modal body -->
-                <div class="modal-body">
-                    <p style="text-align: justify; text-justify: inter-word;">Ser una empresa referente con soluciones
-                        tecnol&oacute;gicas para implementar procesos
-                        exitosos acorde a las necesidades de nuestros
-                        cliente y un servicio basado en la empatía.
-                    </p>
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                </div>
-
             </div>
         </div>
-    </div>
 
-    <!-- Modal de vision -->
+        <!-- Modal de vision -->
 
-    <div class="modal fade" id="mision">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+        <div class="modal fade" id="mision">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Nuestra misi&oacute;n</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Nuestra misi&oacute;n</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p style="text-align: justify; text-justify: inter-word;">Proveer a las pequeñas y medianas empresas
+                            con avanzadas e innovadoras herramientas
+                            tecnol&oacute;gicas para automatizar sus procesos
+                            productivos.
+
+                        </p>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+
                 </div>
-
-                <!-- Modal body -->
-                <div class="modal-body">
-                    <p style="text-align: justify; text-justify: inter-word;">Proveer a las pequeñas y medianas empresas
-                        con avanzadas e innovadoras herramientas
-                        tecnol&oacute;gicas para automatizar sus procesos
-                        productivos.
-
-                    </p>
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                </div>
-
             </div>
         </div>
-    </div>
 
     </main><!-- fin del #main -->
 

@@ -273,7 +273,7 @@
                                     <a class="services-icon" href="#">
                                         <i class="fa fa-edit"></i>
                                     </a>
-                                    <h4 style="color:#3EC1D5">Asesor&iacute;a "Aspel"</h4>
+                                    <h4 style="color:#2167b7">Asesor&iacute;a "Aspel"</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque velit dicta, delectus incidunt porro officiis fugiat, dolore explicabo. Dolor ipsum dolore debitis, culpa dolorem libero maxime, incidunt mollitia adipisci tenetur.
                                     </p>
@@ -289,7 +289,7 @@
                                     <a class="services-icon" href="#">
                                         <i class="fa fa-users"></i>
                                     </a>
-                                    <h4 style="color:#3EC1D5">Polizas Presenciales</h4>
+                                    <h4 style="color:#2167b7">Polizas Presenciales</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                                     </p>
@@ -306,7 +306,7 @@
                                     <a class="services-icon" href="#">
                                         <i class="fa fa-file-word-o"></i>
                                     </a>
-                                    <h4 style="color:#3EC1D5">Creaci&oacute;n de Formatos</h4>
+                                    <h4 style="color:#2167b7">Creaci&oacute;n de Formatos</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                                     </p>
@@ -324,7 +324,7 @@
                                     <a class="services-icon" href="#">
                                         <i class="fa fa-gears"></i>
                                     </a>
-                                    <h4 style="color:#3EC1D5">Capacitaci&oacute;n</h4>
+                                    <h4 style="color:#2167b7">Capacitaci&oacute;n</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                                     </p>
@@ -342,7 +342,7 @@
                                     <a class="services-icon" href="#">
                                         <i class="fa fa-desktop"></i>
                                     </a>
-                                    <h4 style="color:#3EC1D5">Instalación de Software</h4>
+                                    <h4 style="color:#2167b7">Instalación de Software</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                                     </p>
@@ -360,7 +360,7 @@
                                     <a class="services-icon" href="#">
                                         <i class="fa fa-code"></i>
                                     </a>
-                                    <h4 style="color:#3EC1D5">Desarrollo Web</h4>
+                                    <h4 style="color:#2167b7">Desarrollo Web</h4>
                                     <p style="text-align: justify; text-justify: inter-word;">
                                         will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                                     </p>
@@ -397,7 +397,7 @@
                     <div class="col-sm-3 col-sm-4 col-xs-12">
                         <div class="single-team-member">
                             <div class="team-img">
-                                <a href="#">
+                                <a>
                                     <img src="assets/img/team/5.jpg" alt="">
                                 </a>
                                 <div class="team-social-icon text-center">
@@ -439,7 +439,7 @@
                     <div class="col-gd-2 col-sm-3 col-xs-12">
                         <div class="single-team-member">
                             <div class="team-img">
-                                <a href="#">
+                                <a>
                                     <img src="assets/img/team/1.jpg" alt="">
                                 </a>
                                 <div class="team-social-icon text-center">
@@ -472,7 +472,7 @@
                     <div class="col-gd-2 col-sm-3 col-xs-12">
                         <div class="single-team-member">
                             <div class="team-img">
-                                <a href="#">
+                                <a>
                                     <img src="assets/img/team/6.jpg" alt="">
                                 </a>
                                 <div class="team-social-icon text-center">
@@ -505,7 +505,7 @@
                     <div class="col-gd-2 col-sm-3 col-xs-12">
                         <div class="single-team-member">
                             <div class="team-img">
-                                <a href="#">
+                                <a>
                                     <img src="assets/img/team/3.jpg" alt="">
                                 </a>
                                 <div class="team-social-icon text-center">
@@ -538,13 +538,13 @@
                     <div class="col-gd-2 col-sm-3 col-xs-12">
                         <div class="single-team-member">
                             <div class="team-img">
-                                <a href="#">
+                                <a>
                                     <img src="assets/img/team/4.jpg" alt="">
                                 </a>
                                 <div class="team-social-icon text-center">
                                     <ul>
                                         <li>
-                                            <a>
+                                            <a id="facebook">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
@@ -1027,7 +1027,7 @@
                                 <input name="clave_l" type="password" class="form-control" placeholder="Escriba su contraseña" id="clave_l">
                             </div>
 
-                            <button name="login" type="submit" class="btn btn-success" style="background-color: #3ec1d5; border-color: #3ec1d5;">Acceder</button>
+                            <button name="login" type="submit" class="btn btn-success" style="background-color: #2167b7; border-color: #2167b7;">Acceder</button>
                         </form>
                     </div>
 

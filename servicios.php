@@ -227,7 +227,7 @@
                                             <p style="text-align: justify; text-justify: inter-word;">Aliquam et metus pharetra, bibendum massa nec, fermentum odio. Nunc id leo ultrices, mollis ligula in, finibus tortor. Mauris eu dui ut lectus fermentum eleifend. Pellentesque faucibus sem ante, non malesuada odio varius nec. Suspendisse
                                                 potenti. Proin consectetur aliquam odio nec fringilla. Sed interdum at justo in efficitur. Vivamus gravida volutpat sodales. Fusce ornare sit amet ligula condimentum sagittis.</p>
                                             <blockquote>
-                                                <p>Quisque semper nunc vitae erat pellentesque, ac placerat arcu consectetur. In venenatis elit ac ultrices convallis. Duis est nisi, tincidunt ac urna sed, cursus blandit lectus. In ullamcorper sit amet ligula ut eleifend. Proin dictum
+                                                <p style="text-align: justify; text-justify: inter-word;">Quisque semper nunc vitae erat pellentesque, ac placerat arcu consectetur. In venenatis elit ac ultrices convallis. Duis est nisi, tincidunt ac urna sed, cursus blandit lectus. In ullamcorper sit amet ligula ut eleifend. Proin dictum
                                                     tempor ligula, ac feugiat metus. Sed finibus tortor eu scelerisque scelerisque.</p>
                                             </blockquote>
                                             <p style="text-align: justify; text-justify: inter-word;">Aenean et tempor eros, vitae sollicitudin velit. Etiam varius enim nec quam tempor, sed efficitur ex ultrices. Phasellus pretium est vel dui vestibulum condimentum. Aenean nec suscipit nibh. Phasellus nec lacus id arcu facilisis elementum.
@@ -302,7 +302,7 @@
                                 </article>
                                 <div class="single-post-comments">
                                     <div class="comment-respond">
-                                        <h3 class="comment-reply-title">¿Interesado el algun servicio?</h3>
+                                        <h3 class="comment-reply-title">¿Interesado el alg&uacute;n servicio?</h3>
                                         <span class="email-notes">Llene el siguiente formulario y a la brevedad nos pondremos en contacto con usted. *</span>
                                         <form action="#">
                                             <div class="row">
@@ -321,7 +321,7 @@
                                                 <div class="col-lg-12 col-md-12 col-sm-12 comment-form-comment">
                                                     <p>Mensaje *</p>
                                                     <textarea id="message-box" cols="30" rows="10" required></textarea>
-                                                    <input type="submit" value="Post Comment" />
+                                                    <input type="submit" value="Enviar formulario" />
                                                 </div>
                                             </div>
                                         </form>
@@ -492,7 +492,6 @@
                 }
             }
         }
-
     </script>
     <!-- Fin de la funcion de buscar -->
 
